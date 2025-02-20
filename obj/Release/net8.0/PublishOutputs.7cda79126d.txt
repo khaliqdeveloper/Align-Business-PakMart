@@ -1,0 +1,8 @@
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\pakmart.exe
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\web.config
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\pakmart.dll
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\pakmart.deps.json
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\pakmart.runtimeconfig.json
+D:\TelericProject\pakmart\obj\Release\net8.0\PubTmp\Out\pakmart.pdb

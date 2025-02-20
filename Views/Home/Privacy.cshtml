@@ -1,0 +1,903 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PAkMART</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="~/css/pakmart.css" rel="stylesheet" />
+</head>
+<body>
+	
+  <div class="container-fluid tt h-100">
+    <!-- Navbar -->
+    <div class="row align-items-center bg-white sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand fs-3 mx-lg-5 mx-3 text-success fw-bold d-flex align-items-center" href="/">
+              <i class="fas fa-store me-2"></i> PAKMART
+            </a>
+            
+            <!-- Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbarContent" aria-controls="topNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse mx-5" id="topNavbarContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item d-flex align-items-center">
+                  <span class="nav-link">Deliver to:</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-2" href="#">
+                    <i class="bi bi-globe fs-5"></i> English-PKR
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-chat-dots fs-5  mx-2" ></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-receipt fs-5 mx-2"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-cart fs-5 mx-2"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="bi bi-person fs-5  mx-2"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+  
+    @*   <!-- Categories Navbar -->
+      <!--<nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container"> -->
+          <!-- Brand Logo or Navbar Title -->
+          <!-- <a class="navbar-brand" href="#">PakMart Categories</a> -->
+          <!-- Navbar Toggler for Mobile View -->
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#categoriesNavbarContent" aria-controls="categoriesNavbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> -->
+          <!-- </button> -->
+          <!-- Navbar Content -->
+          <!-- <div class="collapse navbar-collapse" id="categoriesNavbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0"> -->
+              <!-- Left Section -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-list-ul  "></i>All Categories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Featured Selections</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Trade Assurance</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> -->
+              <!-- Right Section -->
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Buyer Central</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Help Center</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Get the App</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Become a Supplier</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> -->
+    <!-- Navigation Options --> *@
+    <div class="container mt-5 mb-3">
+        <div class="row justify-content-center">
+          <div class="col-12 d-flex justify-content-center flex-wrap">
+            <ul class="list-unstyled mx-4 fs-3 border-bottom border-4 border-white rounded mb-3 mb-md-0">
+              <li><i class="bi bi-boxes fs-3 me-2"></i> Products</li>
+            </ul>
+            <a href="Manufacturer.html" class="text-decoration-none text-dark"><ul class="list-unstyled mx-4 fs-3 mb-3 mb-md-0">
+              <li><i class="bi bi-building fs-3 me-2"></i> Manufacturers</li>
+            </ul></a>
+            <ul class="list-unstyled mx-4 fs-3 mb-3 mb-md-0">
+              <li><i class="bi bi-geo-alt fs-3 me-2"></i> Regional Supplier</li>
+            </ul>
+            <!-- <ul class="list-unstyled mx-4 fs-3 mb-3 mb-md-0">
+              <li><i class="bi bi-list-ul fs-3 me-2"></i> All Categories</li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    <!-- Search Bar -->
+    <div class="container mt-3 pb-5">
+        <div class="row justify-content-center mt-4">
+          <div class="col-12 col-md-8 col-lg-6">
+            <div class="input-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Search for products, suppliers, and more">
+              <button class="btn btn-success" type="button">
+                <i class="bi bi-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+       <!-- Welcome Section -->
+       <div class="container-fluid pp shadow-sm">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0 px-5 mt-4 mb-4">
+            <h4>Welcome to PakMart.com</h4>
+          </div>
+          <div class="col-12 col-md-8 d-flex flex-wrap justify-content-center justify-content-md-end gap-3 px-5 mt-4 mb-4">
+            <div class="d-flex align-items-center gap-2">
+              <img src="/O1CN0158lXAp1eSy1n6Lu3M_!!6000000003871-2-tps-76-76.avif" alt="Request for Quotation" height="27">
+              <p class="mb-0 text-decoration-underline">Request for Quotation</p>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <img src="/O1CN01moNYA91WiWiKwzHfH_!!6000000002822-2-tps-82-82.avif" alt="Source with Accio AI" height="27">
+              <p class="mb-0 text-decoration-underline">Source with Accio AI</p>
+            </div>
+            <div class="d-flex align-items-center gap-2">
+              <img src="/O1CN01lsRQD61TN38OdPQoc_!!6000000002369-2-tps-82-80.avif" alt="Alibaba.com Logistics" height="27">
+              <p class="mb-0 text-decoration-underline">Alibaba.com Logistics</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+
+      <div class="container-fluid my-5">
+        <!-- Carousel -->
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          </div>
+      
+          <!-- Carousel Items -->
+          <div class="carousel-inner px-4">
+            <div class="carousel-item active">
+              <img src="/O1CN01oUS3i71m5cveqW1jm_!!6000000004903-2-tps-2880-640.png" class="d-block w-100 rounded img-fluid" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+              <img src="/O1CN01r4e0mI1Cq2tGDogyM_!!6000000000131-2-tps-2880-640.avif" class="d-block w-100 rounded img-fluid" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+              <img src="/O1CN01JGa3ig29OA0viu1XE_!!6000000008057-2-tps-2880-640.avif" class="d-block w-100 rounded img-fluid" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+              <img src="/O1CN01d4slML1aYgf4xoAoa_!!6000000003342-2-tps-1440-320.avif" class="d-block w-100 rounded img-fluid" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+              <img src="/O1CN01bHhX1J1uybOdLHdPd_!!6000000006106-0-tps-2880-640.avif" class="d-block w-100 rounded img-fluid" alt="Image 5">
+            </div>
+            <div class="carousel-item">
+              <img src="/O1CN01uvOMYd1VtEHTU2x1A_!!6000000002710-0-tps-2880-640.jpg" class="d-block w-100 rounded img-fluid" alt="Image 6">
+            </div>
+            <!-- <div class="carousel-item">
+              <img src="/O1CN01vjAyVx23FYrqBaXJd_!!6000000007226-2-tps-2880-640.png" class="d-block w-100 rounded img-fluid" alt="Image 7">
+            </div> -->
+          </div>
+      
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="container-fluid mx-5">
+        <div class="row shadow-sm">
+          <h2 class="mb-4">Categories</h2>
+          <div class="mt-4 d-flex">
+            <div class="card me-3">
+              <img src="/dd0a716ed7bd9be5566bd0666a5fd65b.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Sunglasses</p>
+            </div>
+            <div class="card me-3">
+              <img src="/fd81d01ca8c5a933693825923c01b1f8.png_170x170q80.png" style="width: 10rem;" />
+              <p class="text-center">Moblies</p>
+            </div>
+            <div class="card me-3">
+              <img src="/1e78eded8b67e1f3b87b32f2507b8811.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Trash and Bags linear</p>
+            </div>
+            <div class="card me-3">
+              <img src="/398c40d2e4652cd02ee453abed6da1ea.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Dogs and Cats Bed</p>
+            </div>
+            <div class="card me-3">
+              <img src="/S15ab8aef019a43d0ab4433a8731c358c4.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Tablets</p>
+            </div>
+            <div class="card me-3">
+              <img src="/b6aefd55fc0591e0bc6ca39641be04c5.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Stickers and Lables</p>
+            </div>
+            <div class="card me-3">
+              <img src="/79376ab268703d7983a5615c41d4ea3f.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Microphones</p>
+            </div>
+          </div>
+
+          <div class="mt-4 d-flex mb-5">
+            <div class="card me-3">
+              <img src="20c90856e9b9411a61c8445834a5ad16.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Microphones</p>
+            </div>
+            <div class="card me-3">
+              <img src="/73c4d63a4d87e01f9109a4ced51ccaec.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Stud earnings</p>
+            </div>
+            <div class="card me-3">
+              <img src="/e853d8b76cfe2f33402cbd8bef661fea.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Starter Kits</p>
+            </div>
+            <div class="card me-3">
+              <img src="/b6b01e2065b250e5234dea0276ec13ab.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Bed Sheets</p>
+            </div>
+            <div class="card me-3">
+              <img src="/S74867b3e31b34e82b0eafafc3ea811aaw.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Blocks and Building <br>Toys</p>
+            </div>
+            <div class="card me-3">
+              <img src="/679484aa0e080711d50c97f515f24c41.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Pillow Cases</p>
+            </div>
+            <div class="card me-3">
+              <img src="/9550b4413fef2d618a42f879714b0530.jpg_170x170q80.jpg" style="width: 10rem;" />
+              <p class="text-center">Bubble Bath</p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+
+      <div class="container-fluid py-3 px-5 mt-3">
+        <div class="row">
+          <h2 class="mb-4 mt-3">Just For You</h2>
+          <div class="d-flex flex-wrap">
+            
+            <!-- Product Card 1 -->
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/S8a1365cdee414e92848d2f143c412c40W.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 1">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">Exaggerate Shiny Mesh Design Hoop Earrings Iron Jewelry Rhinestones Inlaid Elegant Leisure Style For Women Party Earrings</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 316</span>
+                  <span class="text-muted"><del>Rs 632</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.8)</span>
+                </div>
+                <p class="text-muted">4.8K sold</p>
+              </div>
+            </div>
+      
+             <!-- Product Card 2 -->
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/324e74796ebcfe0b94dc9730f6492b05.jpg_400x400q80.jpg" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Plastic Makeup Storage Box Cosmetic Organizer Jewelry Box Small Drawer Office Home Miscellaneous</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 239</span>
+                  <span class="text-muted"><del>Rs 399</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.5)</span>
+                </div>
+              </div>
+            </div>
+            <!-- Product Card 3 -->
+
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/59bc0533e6038781f5b1269cbb596d97.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Hoodies For Men and boy stripes Printed Kangaroo Hoodie Pocket Drawstring Pullovers Clothing Long Sleeves Export Quality Winter Wear</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 911</span>
+                  <span class="text-muted"><del>Rs 2250</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.5)/5</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/2d18873962775f2051bf3b5b334deebb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  M10 , A6s , F2 earbuds Headphones,Handfree,EarPhone, Bluetooth Neckband Magnetic Earphones Sport Running Earbuds Waterproof Bluetooth 5.2 Headset With Mic, SM Trader</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 365</span>
+                  <span class="text-muted"><del>Rs 1,124</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.9)/5</span>
+                </div>
+              </div>
+            </div>
+
+             <!-- Product Card 5 -->
+             <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/5af4cd48dee9c34f1f88e129c99b7b7a.jpg_400x400q80.jpg" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Jumbo Size Multipurpose Storage Bag & Organizer for Clothes & Blanket (20x10x20inches) 150 Grms</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 2,726</span>
+                  <span class="text-muted"><del>Rs 2,727</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.9)/5</span>
+                </div>
+              </div>
+            </div>
+
+             <!-- Product Card 6 -->
+             <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/Sa99964b747694fc190e1704a08e6ba1cS.jpg_170x170q80.jpg" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Daraz Like New phones - Apple iPhone X 64GB - 10/10 Condition | Non-PTA | Free Charger & Cover</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 36,999</span>
+                  <span class="text-muted"><del>Rs 39,999</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.9)/5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap">
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/Saedc9c8aaaa34f7ea35a97f04874ad219.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  softy sandal for boy's||sandal for mens soft and comfortable</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 639</span>
+                  <span class="text-muted"><del>Rs 1,200</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-success">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.6)/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/43a2f1df2be26e6a4342a0ebd3652ead.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Winter Swet Shirts & Trouser Pajama For Girls & Boys</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 683</span>
+                  <span class="text-muted"><del>Rs 1,500</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.5)/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/S6c841d364d3a4ca4b3d054f827141250M.jpg_200x200q80.jpg_ (1).webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Plush Fingerless Gloves Female Winter Mitten Soft Warm Student Women Flip Gloves Outdoor Write Gloves Thickened Cold Protection</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 528</span>
+                  <span class="text-muted"><del>Rs 1,056</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.9)/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/ae6e2d40049cc261ba470fc2108bed93.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Aua n Co Winter Premium Fleece Cute Cat Pullover Hoodie for Women for Girls</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 699</span>
+                  <span class="text-muted"><del>Rs 1,600</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.6)/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/c1fa99cad43f4398280afac0d1efca99.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Home Decoration Seashell Jell Glass Candles | Tea Light Candles in Glass Holder</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 93</span>
+                  <span class="text-muted"><del>Rs 149</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.4)/5</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="card border-0 me-3" style="width: 12rem;">
+              <img src="/S1ae8c882416f491d9eb341b09fcf1fd5H.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+              <div class="card-body text-center">
+                <h6 class="card-title text-truncate">
+                  Gold Color Vintage Geometry Pearl Earrings Set Metal Twine Square Dangle Earrings Round for Women Simple Trendy Party Jewelry</h6>
+                <p class="mb-1">
+                  <span class="fw-bold">Rs 379</span>
+                  <span class="text-muted"><del>Rs 758</del></span>
+                </p>
+                <div class="d-flex justify-content-center align-items-center mb-2">
+                  <span class="text-warning">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                  </span>
+                  <span class="ms-2 text-muted">(4.8)/5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="d-flex flex-wrap">
+          <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/d13fae6d8856b5906f307484267d145e.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+            Wallets for Women Long Pu Leather Hand Purse Zipper Metal Circle Decor Wallets for Girls Female Hasp Coin Purse Clutch Card Money Bag Girls Singaar Wallets Collection</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 280</span>
+              <span class="text-muted"><del>Rs 799</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.8)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/29f872eec9aabace347c4dc44b619fbb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Men & Women self Diffence Gothic Spiked Stainless steel Ring</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 139</span>
+              <span class="text-muted"><del>Rs 600</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.8)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/9bdcdd75eb125802e0681feec222728b.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Fashion Delicate Crystal Women’s Drop Earrings Girls Accessories for Special Day Korean Style Female Earring</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 303</span>
+              <span class="text-muted"><del>Rs 599</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.1)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/d4ff3e3714214efacc6cfbe7e2fda847.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Women oversized Relax In Comfortable Printed T-Shirts and trouser for Girls</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 842</span>
+              <span class="text-muted"><del>Rs 2,000</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.7)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/7e60381868dff6450c226421936e7c08.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Fashion Alloy Jewelry Set Plum Blossom Five Leaf Flower Earing Girls Bracelet Laser Metal Necklace</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 785</span>
+              <span class="text-muted"><del>Rs 982</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.5)/5</span>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/S20522dc116fd4e25b0d8babddec1633aj.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Pack of 12 matte lipsticks</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 466</span>
+              <span class="text-muted"><del>Rs 1098</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.7)/5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="d-flex flex-wrap">
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/S1c0455ddaf9243aca52a63a21c85cd6fr.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Flat sandals for womens</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 640</span>
+              <span class="text-muted"><del>Rs 1,999</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.3)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 me-3 mt-4" style="width: 12rem;">
+          <img src="/b2e4e9bb0e1ce1eeefbb67f01772c0fb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              Decorative Butterfly Wall Shelf, Decoration Candlestick, Wall Décor Ideas, Wooden Wall Shelves ( Candle Light Not Include )</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 79</span>
+              <span class="text-muted"><del>Rs 499</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.5)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 me-3 mt-4 " style="width: 12rem;">
+          <img src="/bdfc091f1facd0ba7b607d9112c494fb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              F3 Mobile Screen Magnifier 3D Enlarged Screen Display Mobile Stand High Quality</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 299</span>
+              <span class="text-muted"><del>Rs 900</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.5)/5</span>
+            </div>
+          </div>
+        </div>
+
+          <div class="card border-0 me-3 mt-4" style="width: 100%; max-width: 12rem;">
+            <img src="/bbe818cf4c8ddf766fa4aeb450c6bd7f.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2" style="height: auto; max-height: 190px;">
+            <div class="card-body text-center">
+              <h6 class="card-title text-truncate">
+                Analady Makeup-Kit || Makeup-Kit || Base All in One Kit || Eye Shadow Kit for All Women
+              </h6>
+              <p class="mb-1">
+                <span class="fw-bold">Rs 580</span>
+                <span class="text-muted"><del>Rs 1,299</del></span>
+              </p>
+              <div class="d-flex justify-content-center align-items-center mb-2">
+                <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                </span>
+                <span class="ms-2 text-muted">(4.8)/5</span>
+              </div>
+            </div>
+          </div>
+
+        <div class="card border-0 mt-4 " style="width: 12rem;">
+          <img src="/9635a6586d65ca4fe9d9c40f894f4e43.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              large size teddy bear for girls big size ,premium quality ,washable stuff, human size teddy bear , plush toys soft and fluffy stuff toy 8inch,1 ft ,1.5 ft ,2 ft , 3 ft , 3.5 ft , 4 ft , 5 ft , 6 ft , 7 ft , 8 ft</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 609</span>
+              <span class="text-muted"><del>Rs 1,500</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.3)/5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card border-0 mt-4 " style="width: 12rem;">
+          <img src="/2033a1aaf077efe4c1c008fbf639ae92.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+          <div class="card-body text-center">
+            <h6 class="card-title text-truncate">
+              
+Beeswax Furniture Polish ,Wood Seasoning Beeswax | Natural Wood Wax Traditional Beeswax Polish for Wood & Furniture | Beeswax Wood Polish and Cleaner for Furniture Care</h6>
+            <p class="mb-1">
+              <span class="fw-bold">Rs 299</span>
+              <span class="text-muted"><del>Rs 800</del></span>
+            </p>
+            <div class="d-flex justify-content-center align-items-center mb-2">
+              <span class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </span>
+              <span class="ms-2 text-muted">(4.6)/5</span>
+            </div>
+          </div>
+        </div>
+</div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

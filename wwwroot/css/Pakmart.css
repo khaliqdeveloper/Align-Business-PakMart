@@ -1,0 +1,454 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: OpenSans, Helvetica Neue, Helvetica, Tahoma, Arial, PingFang SC, Microsoft YaHei;
+}
+
+.tt {
+    background-image: url('/images/images (1).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%; /* Adjust to fit screen */
+}
+
+.bb {
+    background-image: url('/images/images (1).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%; /* Adjust to fit screen */
+}
+
+.one {
+    background-image: url('/images/pic117.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures background image covers the div */
+    width: 350%; /* Makes the div full width */
+    height: 300px; /* Fixed height, you can adjust as needed */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Positions the text at the bottom */
+    padding-bottom: 15px; /* Adds padding at the bottom for spacing */
+}
+
+/* Style for dropdown-content */
+.dropdown-content {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    width: 1300px;
+    left: 0;
+    cursor: pointer;
+}
+
+/* Show on hover */
+.hover-container:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+}
+
+/* Style for hover-container */
+.hover-container {
+    position: relative;
+    cursor: pointer;
+}
+
+    .hover-container > div {
+        margin-bottom: 0rem;
+    }
+
+/* Style for dropdown-content */
+.dropdown-content1 {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    width: 1100px;
+    left: 0;
+    cursor: pointer;
+}
+
+/* Show on hover */
+.hover-container1:hover .dropdown-content1 {
+    display: block;
+    cursor: pointer;
+}
+
+/* Style for hover-container */
+.hover-container1 {
+    position: relative;
+    cursor: pointer;
+}
+
+    .hover-container1 > div {
+        margin-bottom: 0rem;
+    }
+
+/* Optional: Adjust the spacing between the elements */
+.dropdown-content1 > div {
+    margin-bottom: 15px;
+}
+
+/* Style for dropdown-content */
+.dropdown-content2 {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    width: 970px;
+    right: 0;
+    cursor: pointer;
+}
+
+    .hover-container2 > div {
+        margin-bottom: 0rem;
+    }
+
+/* Optional: Adjust the spacing between the elements */
+.dropdown-content2 > div {
+    margin-bottom: 15px;
+}
+/* Show on hover */
+.hover-container2:hover .dropdown-content2 {
+    display: block;
+    cursor: pointer;
+}
+
+/* Style for hover-container */
+.hover-container2 {
+    position: relative;
+    cursor: pointer;
+}
+
+/* Initially hide the dropdown */
+.dropdown-content3 {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    width: 400px;
+    right: 0;
+    cursor: pointer;
+}
+
+.hover-container3 > div {
+    margin-bottom: 0rem;
+}
+
+/* Optional: Adjust the spacing between the elements */
+.dropdown-content3 > div {
+    margin-bottom: 15px;
+}
+/* Show on hover */
+.hover-container3:hover .dropdown-content3 {
+    display: block;
+    cursor: pointer;
+}
+
+/* Style for hover-container */
+.hover-container3 {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.dropdown-content4 {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    width: 400px;
+    right: 0;
+    cursor: pointer;
+}
+
+.hover-container4 > div {
+    margin-bottom: 0rem;
+}
+
+/* Optional: Adjust the spacing between the elements */
+.dropdown-content4 > div {
+    margin-bottom: 15px;
+}
+/* Show on hover */
+.hover-container4:hover .dropdown-content4 {
+    display: block;
+    cursor: pointer;
+}
+
+/* Style for hover-container */
+.hover-container4 {
+    position: relative;
+    cursor: pointer;
+}
+
+.dropdown-content5 {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    width: 300px;
+    right: 0;
+    cursor: pointer;
+}
+
+.hover-container5 > div {
+    margin-bottom: 0rem;
+}
+
+/* Optional: Adjust the spacing between the elements */
+.dropdown-content5 > div {
+    margin-bottom: 15px;
+}
+/* Show on hover */
+.hover-container5:hover .dropdown-content5 {
+    display: block;
+    cursor: pointer;
+}
+
+/* Style for hover-container */
+.hover-container5 {
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.col-md-4 {
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: #f1f1f1; /* For Firefox */
+}
+
+    .col-md-4::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    .col-md-4::-webkit-scrollbar-thumb {
+        background-color: #007bff;
+        border-radius: 10px;
+    }
+
+    .col-md-4::-webkit-scrollbar-track {
+        background-color: #f1f1f1;
+    }
+
+.two {
+    background-image: url('/images/O1CN01OluQ4E1fkexTaPWnI_ !!6000000004045-2-tps-600-600.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures background image covers the div */
+    width: 350%; /* Makes the div full width */
+    height: 300px; /* Fixed height, you can adjust as needed */
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Positions the text at the bottom */
+}
+
+.icon {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.navbar-toggler {
+    color: black !important;
+}
+
+.navbar-toggler-icon {
+    color: black !important;
+}
+
+.navbar-toggler {
+    border: none; /* Remove border */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/*.nav-link {
+    color: black !important; 
+}*/
+
+/*.navbar-brand {
+    color: black !important;
+}*/
+
+.pp {
+    background-color: white;
+}
+
+.section {
+    background-color: rgba(0, 0, 0, .04) !important;
+}
+
+.mm {
+    background-image: url('/images/ppp.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%; /* Adjust to fit screen */
+}
+
+.cc {
+    background-image: url('/images/back-view-office-worker-analyze-260nw-2118978332.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 500px;
+    width: 100%; /* Adjust to fit screen */
+}
+
+.zz {
+    background-image: url('/images/pngtree-girl-at-home-at-night-in-the-living-room-looking-at-image_796391.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Fix */
+    color: white;
+    height: 500px;
+    width: 100%;
+}
+
+
+.ll {
+    background-image: url('/images/student-849822_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    width: 90%;
+    position: relative;
+}
+
+    .ll::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .ll > .row {
+        position: relative;
+        z-index: 2;
+    }
+
+.aa {
+    background-image: url('/images/images (20).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    width: 90%;
+    position: relative;
+}
+
+    .aa::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .aa > .row {
+        position: relative;
+        z-index: 2;
+    }
+.ee {
+    background-image: url('/images/istockphoto-1671644507-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    width: 90%;
+         position: relative;
+}
+
+    .ee::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .ee > .row {
+        position: relative;
+        z-index: 2;
+    }
+.one {
+    background-image: url('/images/istockphoto-1154126998-612x612.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 400px;
+    width: 90%;
+    position: relative;
+}
+
+.nn {
+    background-image: url('/images/o104lL.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    width: 100%; /* Adjust to fit screen */
+}
+.scrollable-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+    .scrollable-row::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .scrollable-row::-webkit-scrollbar-thumb {
+        background-color: #ccc;
+        border-radius: 4px;
+    }
+
+
+ 
