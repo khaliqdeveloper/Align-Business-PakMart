@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pakmart")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab634ca99a1b63281e71bbafe2ce4c834e8029a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("pakmart")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pakmart")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

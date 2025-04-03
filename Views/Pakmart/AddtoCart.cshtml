@@ -1,0 +1,176 @@
+﻿<div class="container-fluid text-center px-5 mt-5">
+    <h2 class="fw-bold text-start">Shopping cart</h2>
+    <div class="mt-4 d-flex flex-column align-items-center">
+        <div class="d-flex align-items-center">
+            <div>
+                <img src="~/images/O1CN01C6qznq1DoVBMtPN6D_!!6000000000263-2-tps-384-320.png"
+                     alt="Empty cart"
+                     class="img-fluid w-50">
+            </div>
+            <div class="ms-3 text-start">
+                <p class="mt-3 fw-bold fs-4">Your shopping cart is empty.</p>
+                <p class="text-muted fs-5">You're protected on Pakmart</p>
+                <div class="d-flex flex-column lh-lg">
+                    <span class="text-success">&#10003; Secure payment</span>
+                    <span class="text-success">&#10003; Refund and returns</span>
+                    <span class="text-success">&#10003; Fulfillment by Pakmart Logistics</span>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-light mt-3" role="alert">
+            <a href="#" class="text-decoration-none fw-bold text-success" data-bs-toggle="modal" data-bs-target="#loginModal">Sign in</a> to get up to
+            <strong>$20.00 welcome perks!</strong>
+        </div>
+        <a asp-action="Product" asp-controller="Pakmart" class="text-decoration-none px-4 btn btn-outline-success mt-3 rounded-pill">
+        Start Sourcing</a>
+    </div>
+
+
+    <h3 class="mt-5 fw-bold text-start">New arrivals with Easy Return</h3>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-6 g-3 mt-4">
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/H8d097f4967b84c488a8a14300813e643n.jpg_220x220.png"
+                     class="card-img-top mx-auto d-block"
+                     alt="Product">
+                <div class="card-body">
+                    <small class="text-muted">Listed: November 30, 2022</small>
+                    <p class="card-text mt-2">Custom Package 100% Viscose</p>
+                    <p class="fw-bold">$0.42 - $0.60</p>
+                    <p class="card-text"><small class="text-muted">Min. order: 100 pieces</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/H26c96f9516f1476794916a4766d4c1dfn.jpg_220x220.png"
+                     class="card-img-top mx-auto d-block"
+                     alt="Product">
+                <div class="card-body">
+                    <small class="text-muted">Listed: November 22, 2022</small>
+                    <p class="card-text mt-2">Diaper Bag Tote Waterproof Folding</p>
+                    <p class="fw-bold">$6.07 - $7.45</p>
+                    <p class="card-text"><small class="text-muted">Min. order: 3 pieces</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/Hb762e5fc9b024b40afbc548a3c02c607V.jpg_220x220.png"
+                     class="card-img-top mx-auto d-block"
+                     alt="Product">
+                <div class="card-body">
+                    <small class="text-muted">Listed: December 06, 2022</small>
+                    <p class="card-text mt-2">Cheap Price Solid Color Fleece Sweater</p>
+                    <p class="fw-bold">$0.38 - $2.00</p>
+                    <p class="card-text"><small class="text-muted">Min. order: 2 pieces</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/H3237e87edc444d56a13c97967c162ef32.jpg_220x220.png"
+                     class="card-img-top mx-auto d-block"
+                     alt="Product">
+                <div class="card-body">
+                    <small class="text-muted">Listed: December 02, 2022</small>
+                    <p class="card-text mt-2">Size 32-47 Customization Open</p>
+                    <p class="fw-bold">$1.23 - $1.65</p>
+                    <p class="card-text"><small class="text-muted">Min. order: 2 pairs</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/Hb9cd8b2f7a3340e39fe14b41b1f478e95.jpg_220x220.png"
+                     class="card-img-top mx-auto d-block"
+                     alt="Product">
+                <div class="card-body">
+                    <small class="text-muted">Listed: December 07, 2022</small>
+                    <p class="card-text mt-2">MOQ 1 Piece Tooth Gem in Stock Lead</p>
+                    <p class="fw-bold">$0.38 - $2.00</p>
+                    <p class="card-text"><small class="text-muted">Min. order: 2 pieces</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card text-center">
+                <img src="~/images/H9ed422c223cb4eccb6378291d3bc4848h.jpg_220x220.png"
+                     class="card-img-top mx-auto d-block"
+                     alt="Product">
+                <div class="card-body">
+                    <small class="text-muted">Listed: November 23, 2022</small>
+                    <p class="card-text mt-2">Custom Luxury Cotton Velvet Satin</p>
+                    <p class="fw-bold">$0.05 - $0.45</p>
+                    <p class="card-text"><small class="text-muted">Min. order: 100 pieces</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+                <h6 class="modal-title fw-bold" id="loginModalLabel">Sign In</h6>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Free Shipping Banner -->
+                <div class="alert alert-success text-center py-2">
+                    <strong>FREE shipping</strong> on your first order
+                </div>
+
+                <!-- Sign-in Form -->
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Account:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email or member ID">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password:</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password">
+                        <div class="text-end">
+                            <a href="#" class="small text-primary">Forgot password?</a>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Sign in</button>
+                </form>
+
+                <!-- Mobile Sign-In Link -->
+                <div class="text-center mt-3">
+                    <a href="#" class="small text-primary">Mobile number sign in</a>
+                </div>
+
+                <!-- Divider -->
+                <hr>
+
+                <!-- Social Login Buttons -->
+                <div class="text-center">
+                    <p class="small mb-2">Sign in with:</p>
+                    <div class="d-flex justify-content-center gap-2">
+                        <button class="btn btn-light border">
+                            <img src="~/images/download (9).jpeg" width="50" alt="Google"> Google
+                        </button>
+                        <button class="btn btn-light border">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="20" alt="Facebook"> Facebook
+                        </button>
+                        <button class="btn btn-light border">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="20" alt="LinkedIn"> LinkedIn
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

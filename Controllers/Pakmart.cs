@@ -93,5 +93,9 @@ namespace pakmart.Controllers
 		{
 			return View();
 		}
+		public IActionResult AddtoCart()
+		{
+			return View();
+		}
 	}
 }
