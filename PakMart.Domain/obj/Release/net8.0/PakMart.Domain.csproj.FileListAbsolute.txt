@@ -1,0 +1,12 @@
+D:\Teleric Projects\PakMart\PakMart.Domain\bin\Release\net8.0\PakMart.Domain.deps.json
+D:\Teleric Projects\PakMart\PakMart.Domain\bin\Release\net8.0\PakMart.Domain.dll
+D:\Teleric Projects\PakMart\PakMart.Domain\bin\Release\net8.0\PakMart.Domain.pdb
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.csproj.AssemblyReference.cache
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.AssemblyInfoInputs.cache
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.AssemblyInfo.cs
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.csproj.CoreCompileInputs.cache
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.dll
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\refint\PakMart.Domain.dll
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\PakMart.Domain.pdb
+D:\Teleric Projects\PakMart\PakMart.Domain\obj\Release\net8.0\ref\PakMart.Domain.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PakMart.Web.props" />
+</Project>

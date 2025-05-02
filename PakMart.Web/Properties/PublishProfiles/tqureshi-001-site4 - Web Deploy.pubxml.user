@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+    <History>True|2025-05-01T18:57:11.7809170Z||;False|2025-05-01T11:56:07.8011808-07:00||;True|2025-04-15T08:17:24.5655191-07:00||;False|2025-04-15T08:15:55.8271850-07:00||;True|2025-04-14T11:26:14.8681052-07:00||;True|2025-04-12T14:05:16.3880868-07:00||;False|2025-04-12T13:59:52.1206391-07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL8020.site4now.net%3bInitial Catalog=db_aa639c_pakmartdb%3bUser Id=db_aa639c_pakmartdb_admin%3bPassword=Align2025!%3b TrustServerCertificate = True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="PakMart.Infrastructure.Data.ApplicationDbContext">
+      <Value>Data Source=SQL8020.site4now.net%3bInitial Catalog=db_aa639c_pakmartdb%3bUser Id=db_aa639c_pakmartdb_admin%3bPassword=Align2025!%3b TrustServerCertificate = True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

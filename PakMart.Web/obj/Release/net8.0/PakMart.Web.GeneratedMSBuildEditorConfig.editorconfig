@@ -1,0 +1,201 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PakMart.Web
+build_property.RootNamespace = PakMart.Web
+build_property.ProjectDir = D:\Teleric Projects\PakMart\PakMart.Web\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Teleric Projects\PakMart\PakMart.Web
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Category/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Manufacturer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFudWZhY3R1cmVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Manufacturer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFudWZhY3R1cmVyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Manufacturer/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFudWZhY3R1cmVyXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/ProductReview/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFJldmlld1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/ProductReview/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFJldmlld1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Product/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Aftersales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxBZnRlcnNhbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Becomeasupplier.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxCZWNvbWVhc3VwcGxpZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Blog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxCbG9nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/CreditCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxDcmVkaXRDYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/detailpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxkZXRhaWxwYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Helpcenter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxIZWxwY2VudGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Industrial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxJbmR1c3RyaWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/logistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxsb2dpc3RpY3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Manufacturers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxNYW51ZmFjdHVyZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Member.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxNZW1iZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Moneyback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxNb25leWJhY2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Overview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxPdmVydmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Production.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxQcm9kdWN0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Regional.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxSZWdpb25hbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Safepayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxTYWZlcGF5bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Shippinglogistics.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxTaGlwcGluZ2xvZ2lzdGljcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Successstories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxTdWNjZXNzc3Rvcmllcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/trade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFx0cmFkZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Whatpakmart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxXaGF0cGFrbWFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Pakmart/Whysourcepkmart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFrbWFydFxXaHlzb3VyY2Vwa21hcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Areas/Admin/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x3is2q5c9t
+
+[D:/Teleric Projects/PakMart/PakMart.Web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zs9perprj5

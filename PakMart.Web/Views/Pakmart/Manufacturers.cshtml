@@ -1,0 +1,971 @@
+﻿
+    <!-- Welcome Section -->
+@* <div class="container-fluid pp shadow-sm"> *@
+@*     <div class="row align-items-center"> *@
+@*         <div class="col-12 col-md-4 text-center text-md-start mb-3 mb-md-0 px-5 mt-4 mb-4"> *@
+@*             <h4>Welcome to PakMart</h4> *@
+@*         </div> *@
+@*         @* <div class="col-12 col-md-8 d-flex flex-wrap justify-content-center justify-content-md-end gap-3 px-5 mt-4 mb-4"> *@ 
+@*         @*     <div class="d-flex align-items-center gap-2"> *@ 
+@*         @*         <img src="~/images/pic5 (1).png" alt="Request for Quotation" height="27"> *@ 
+@*         @*         <p class="mb-0 text-decoration-underline">Request for Quotation</p> *@ 
+@*         @*     </div> *@ 
+@*         @*     <div class="d-flex align-items-center gap-2"> *@ 
+@*         @*         <img src="~/images/pic9.png" alt="Source with Accio AI" height="27"> *@ 
+@*         @*         <p class="mb-0 text-decoration-underline">Source with Accio AI</p> *@ 
+@*         @*     </div> *@ 
+@*         <div class="d-flex align-items-center gap-2"> *@
+@*             <img src="~/images/O1CN01lsRQD61TN38OdPQoc_!!6000000002369-2-tps-82-80.png" alt="Alibaba.com Logistics" height="27"> *@
+@*             <p class="mb-0 text-decoration-underline"> *@
+@*                 <a class="text-decoration-none text-dark" asp-action="logistics" asp-controller="Pakmart">Pakmart.com Logistics</a> *@
+@*             </p> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-3">
+
+            <!-- Source by category -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="shadow p-3">
+                    <h5 class="fw-bold mt-2">Source by category</h5>
+                    <ul class="list-unstyled mt-3">
+                        <li class="d-flex align-items-center mb-2">
+                            <i class="bi bi-building me-2"></i> Construction & Building Machinery
+                        </li>
+                        <li class="d-flex align-items-center mb-2 mt-1">
+                            <i class="bi bi-cpu me-2"></i> Electronic Components, Accessories & Telecommunications
+                        </li>
+                        <li class="d-flex align-items-center mb-2 mt-1">
+                            <i class="bi bi-person-bounding-box me-2"></i> Apparel & Accessories
+                        </li>
+                        <li class="d-flex align-items-center mb-2 mt-1">
+                            <i class="bi bi-lightbulb me-2"></i> Electrical Equipment & Supplies
+                        </li>
+                        <li class="d-flex align-items-center mb-2 mt-1">
+                            <i class="bi bi-tools me-2"></i> Tools & Hardware
+                        </li>
+                        <li class="d-flex align-items-center mb-2 mt-1">
+                            <i class="bi bi-gear me-2"></i> Power Transmission
+                        </li>
+                        <li class="d-flex align-items-center mb-5">
+                            <i class="bi bi-list-ul me-2"></i> All categories
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Get samples & Factory LIVE Q&A -->
+            <div class="col-12 col-md-3 mb-4 shadow">
+                <div class="mb-4">
+                    <h5 class="fw-bold mt-4">Get samples</h5>
+                    <div class="d-flex justify-content-between p-3 mt-3">
+                        <div class="me-4 text-center">
+                            <img src="~/images/pic11.png" class="img-fluid" style="width: 6rem;" alt="Trending">
+                            <p>Trending</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="~/images/pic12.png" class="img-fluid" style="width: 6rem;" alt="Newly released">
+                            <p>Newly released</p>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="fw-bold">Factory LIVE Q&A</h5>
+                <div class="d-flex justify-content-between">
+                    <div class="text-center">
+                        <img src="~/images/pic13.png" class="img-fluid" style="width: 6rem;" alt="Q&A LIVE">
+                        <p>Q&A LIVE</p>
+                    </div>
+                    <div class="text-center">
+                        <img src="~/images/pic14.png" class="img-fluid" style="width: 6rem;" alt="Discounts LIVE">
+                        <p>Discounts LIVE</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Top-ranking manufacturers -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="shadow p-3">
+                    <h5 class="fw-bold">Top-ranking manufacturers</h5>
+                    <div class="d-flex justify-content-between px-2">
+                        <div class="text-center">
+                            <img src="~/images/pic15.png" class="img-fluid" style="width: 6rem;" alt="Most popular">
+                            <p>Most popular</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="~/images/pic16.png" class="img-fluid" style="width: 6rem;" alt="Best sellers">
+                            <p>Best sellers</p>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-5 px-2 py-3">
+                        <div class="text-center">
+                            <img src="~/images/pic17.png" class="img-fluid" style="width: 6rem;" alt="Quick response">
+                            <p>Quick response</p>
+                        </div>
+                        <div class="text-center">
+                            <img src="~/images/pic18.png" class="img-fluid" style="width: 6rem;" alt="On-time Delivery">
+                            <p>On-time Delivery</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guest Section -->
+            <div class="col-12 col-md-3 mb-4">
+                <div class="shadow p-3">
+                    <p class="text-center">Welcome!</p>
+                    <h5 class="fw-bold text-center">Guest</h5>
+                    <div class="d-flex justify-content-center mb-4 mt-3">
+                        <button class="btn btn-success text-white border border-success rounded me-2">Sign in</button>
+                        <button class="btn btn-success text-white border border-success rounded">Join for free</button>
+                    </div>
+                    <h5 class="fw-bold">Your browsing history</h5>
+                    <div class="d-flex justify-content-between mt-3">
+                        <img src="~/images/pic19.png" class="img-fluid" style="width: 6rem;" alt="Image 1">
+                        <img src="~/images/pic20.png" class="img-fluid" style="width: 6rem;" alt="Image 2">
+                        <!-- <img src="/Hb638505087b443929b28d718696fe6a7t.jpg_220x220.avif" class="img-fluid" style="width: 6rem;" alt="Image 3"> -->
+                    </div>
+                    <div class="text-center mt-4">
+                        <p>One request, multiple quotes</p>
+                        <button class="btn btn-outline-success">Request for Quotation</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow p-3">
+                <!-- Top Section -->
+                <div class="row align-items-center">
+                    <!-- Company Info Section -->
+                    <div class="col-12 col-md-8 d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic23.png"
+                             style="width: 6rem; height: 2rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Cobtel Precision Electronics Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">9 yrs • 450+ staff • 41,000+ m² • US$20,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div class="col-12 col-md-4 text-md-end text-center mt-3 mt-md-0">
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Bottom Section -->
+                <div class="row mt-4">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3 mb-4">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>5.0/5 (10 reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Minor customization</li>
+                            <li class="mt-3">On-time delivery 100.0%</li>
+                            <li class="mt-3">Warranty available</li>
+                            <li class="mt-3">OEM for well-known brands</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center mb-4">
+                        <img src="~/images/pic24.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$17.69-17.99</h6>
+                        <p class="mb-0">Min. order: 5 pieces</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center mb-4">
+                        <img src="~/images/pic25.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$12.98-13.00</h6>
+                        <p class="mb-0">Min. order: 5 pieces</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center mb-4">
+                        <img src="~/images/pic26.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$5.38-5.90</h6>
+                        <p class="mb-0">Min. order: 5 pieces</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center mb-4">
+                        <img src="~/images/pic27.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic28.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Hangzhou Lin'an Kexin Optical Cable Co.,Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">9 yrs • 450+ staff • 41,000+ m² • US$20,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>0/5 (0 reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Warranty available</li>
+                            <li class="mt-3">Minor customization</li>
+                            <li class="mt-3">On-time delivery 0.0%</li>
+                            <li class="mt-3">Response time ≤2h</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic29.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$99.00-330.00</h6>
+                        <p class="mb-0">Min. order: 20 kilometers</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic30.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$80.00-160.00</h6>
+                        <p class="mb-0">Min. order: 20 kilometers</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic31.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$0.04-0.07</h6>
+                        <p class="mb-0">Min. order: 20 kilometers</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic32.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic33.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Fold Art Industry (shenzhen) Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">4 yrs • 100+ staff • 25,000+ m² • US$340,000+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.7/5 (100+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Warranty available</li>
+                            <li class="mt-3">Finished product inspection</li>
+                            <li class="mt-3">Response time ≤2h</li>
+                            <li class="mt-3">On-time delivery 100.0%</li>
+                        </ul>
+                    </div>
+
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic34.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$20.00-22.00</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic35.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$21.00-23.00</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic36.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$21.00-23.00</h6>
+                        <p class="mb-0">Min. order: 2 pieces</p>
+                    </div>
+
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic37.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic38.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Guangzhou Yalisi Cosmetics Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">1 yrs • 20+ staff • 5,300+ m² • US$60,000+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.2/5 (20+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Finished product inspection</li>
+                            <li class="mt-3">Response time ≤4h</li>
+                            <li class="mt-3">On-time delivery 95.1%</li>
+                            <li class="mt-3">Full customization</li>
+                        </ul>
+                    </div>
+
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic39.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$1.60</h6>
+                        <p class="mb-0">Min. order: 2 units</p>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic40.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$2.00-2.70</h6>
+                        <p class="mb-0">Min. order: 12 units</p>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic41.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$0.75-1.00</h6>
+                        <p class="mb-0">Min. order: 3000 units</p>
+                    </div>
+
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic42.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic43.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Guangzhou Guocui Biological Technology Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">5 yrs • 40+ staff • 5,000+ m² • US$210,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.4/5 (100+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Business procurement</li>
+                            <li class="mt-3">Warranty available</li>
+                            <li class="mt-3">Low MOQ for customization</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic44.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$1.54-2.44</h6>
+                        <p class="mb-0">Min. order: 3 piece</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic45.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$1.41-1.90</h6>
+                        <p class="mb-0">Min. order: 3 piece</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic46.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$1.15-1.99</h6>
+                        <p class="mb-0">Min. order: 3 piece</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic47.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic48.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Aoxi Fashion Garment Limited Company (dongguan)</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">10 yrs • 100+ staff • 2,400+ m² • US$590,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.3/5 (10+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Finished product inspection</li>
+                            <li class="mt-3">ODM service available</li>
+                            <li class="mt-3">Full customization</li>
+                            <li class="mt-3">Minor customization</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic72.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$4.50-9.80</h6>
+                        <p class="mb-0">Min. order: 50 piece</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic49.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$8.90-14.80</h6>
+                        <p class="mb-0">Min. order: 50 piece</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic50.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$8.90-14.80</h6>
+                        <p class="mb-0">Min. order: 50 piece</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic51.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic52.png"
+                             style="width: 6rem; height: 4rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Guangzhou Shihe Trading Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">8 yrs • 20+ staff • 210+ m² • US$410,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.5/5 (700+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Response time ≤2h</li>
+                            <li class="mt-3">Warranty available</li>
+                            <li class="mt-3">On-time delivery 98.5%</li>
+                            <li class="mt-3">Finished product inspection</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic53.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$4.00-4.30</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic54.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$4.30-6.20</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic55.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$4.30-6.20</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic56.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic57.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Guangdong Aimu Biological Technology Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">5 yrs • 140+ staff • 9,300+ m² • US$1,900,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.5/5 (700+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Response time ≤2h</li>
+                            <li class="mt-3">Warranty available</li>
+                            <li class="mt-3">On-time delivery 97.1%</li>
+                            <li class="mt-3">Finished product inspection</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic58.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$1.12-3.86</h6>
+                        <p class="mb-0">Min. order: 2 piece</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic59.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$0.45-1.88</h6>
+                        <p class="mb-0">Min. order: 2 piece</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic60.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$0.45-1.88</h6>
+                        <p class="mb-0">Min. order: 2 piece</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic61.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic62.png"
+                             style="width: 6rem; height: 3rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Guangdong Aimu Biological Technology Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">13 yrs • 100+ staff • 4,300+ m² • US$470,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.7/5 (20+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Response time ≤5h</li>
+                            <li class="mt-3">Full customization</li>
+                            <li class="mt-3">On-time delivery 99.2%</li>
+                            <li class="mt-3">Finished product inspection</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic63.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$1.00</h6>
+                        <p class="mb-0">Min. order: 2 piece</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic64.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$0.99-1.59</h6>
+                        <p class="mb-0">Min. order: 1000 piece</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic65.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$1.19-1.57</h6>
+                        <p class="mb-0">Min. order: 1000 piece</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic66.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow">
+                <!-- Header Section -->
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic67.png"
+                             style="width: 6rem; height: 4rem;"
+                             alt="Company Logo">
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">Guangdong Aimu Biological Technology Co., Ltd.</h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">5 yrs • 140+ staff • 2000+ m² • US$440,000+</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <!-- Content Section -->
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold">Rating and reviews</li>
+                            <li>4.8/5 (100+ reviews)</li>
+                            <li class="fw-bold mt-3">Factory capabilities</li>
+                            <li class="mt-3">Response time ≤4h</li>
+                            <li class="mt-3">Full customization</li>
+                            <li class="mt-3">On-time delivery 97.8%</li>
+                            <li class="mt-3">Finished product inspection</li>
+                        </ul>
+                    </div>
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic68.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">$24.20-25.20</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic69.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">$22.00-23.00</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic70.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">$34.00-35.00</h6>
+                        <p class="mb-0">Min. order: 1 piece</p>
+                    </div>
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic71.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5">
+        <div class="row mx-4">
+            <div class="shadow p-3">
+                <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-3">
+                    <!-- Company Info Section -->
+                    <div class="d-flex flex-wrap align-items-start gap-3">
+                        <!-- Company Logo -->
+                        <img class="border border-light rounded"
+                             src="~/images/pic82.png"
+                             style="width: 6rem; height: 4rem;"
+                             alt="Company Logo">
+
+                        <!-- Company Details -->
+                        <div>
+                            <h5 class="text-decoration-underline mb-1">
+                                Dongguan Feitong Garment Co., Ltd.
+                            </h5>
+                            <div class="d-flex align-items-center gap-2">
+                                <img class="mt-1"
+                                     src="~/images/pic21.png"
+                                     style="width: 3rem; height: 1rem;"
+                                     alt="Badge">
+                                <p class="mb-0">4 yrs • 60+ staff • 1,400+ m² • US$8,000+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Buttons Section -->
+                    <div>
+                        <button class="btn btn-success rounded me-2">Chat now</button>
+                        <button class="btn btn-success rounded">Contact us</button>
+                    </div>
+                </div>
+
+                <div class="row g-3 mt-3">
+                    <!-- Rating and Reviews Section -->
+                    <div class="col-12 col-md-3">
+                        <ul class="list-unstyled">
+                            <li class="fw-bold list-unstyled">Rating and reviews</li>
+                            <li class="list-unstyled">5.0/5 (9 reviews)</li>
+                            <li class="fw-bold mt-3 list-unstyled">Factory capabilities</li>
+                            <li class="mt-3">Response time ≤2h</li>
+                            <li class="mt-3">Full customization</li>
+                            <li class="mt-3">On-time delivery 100.0%</li>
+                            <li class="mt-3">Finished product inspection</li>
+                        </ul>
+                    </div>
+
+                    <!-- Product 1 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic80.png" class="img-fluid rounded" alt="Product 1">
+                        <h6 class="fw-bold mt-2">
+                            $6.34-13.64
+                        </h6>
+                        <p class="mb-0">Min. order: 30 pieces</p>
+                    </div>
+
+                    <!-- Product 2 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic79.png" class="img-fluid rounded" alt="Product 2">
+                        <h6 class="fw-bold mt-2">
+                            $2.28-6.88
+                        </h6>
+                        <p class="mb-0">Min. order: 50 pieces</p>
+                    </div>
+
+                    <!-- Product 3 -->
+                    <div class="col-6 col-md-2 text-center">
+                        <img src="~/images/pic81.png" class="img-fluid rounded" alt="Product 3">
+                        <h6 class="fw-bold mt-2">
+                            $2.18-5.89
+                        </h6>
+                        <p class="mb-0">Min. order: 50 pieces</p>
+                    </div>
+
+                    <!-- Additional Image -->
+                    <div class="col-12 col-md-3 text-center">
+                        <img src="~/images/pic82.png" class="img-fluid rounded" alt="Additional Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+

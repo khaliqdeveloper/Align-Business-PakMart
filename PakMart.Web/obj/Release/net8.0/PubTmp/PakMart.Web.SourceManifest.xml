@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="D:\Teleric Projects\PakMart\PakMart.Web\obj\Release\net8.0\PubTmp\Out\" />
+  <dbfullsql path="D:\Teleric Projects\PakMart\PakMart.Web\obj\Release\net8.0\PubTmp\EFSQLScripts\PakMart.Infrastructure.Data.ApplicationDbContext.sql" />
+</sitemanifest>

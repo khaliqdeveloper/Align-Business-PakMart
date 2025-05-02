@@ -1,0 +1,15 @@
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\bin\Release\net8.0\PakMart.Infrastructure.deps.json
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\bin\Release\net8.0\PakMart.Infrastructure.dll
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\bin\Release\net8.0\PakMart.Infrastructure.pdb
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\bin\Release\net8.0\PakMart.Domain.dll
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\bin\Release\net8.0\PakMart.Domain.pdb
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.csproj.AssemblyReference.cache
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.AssemblyInfoInputs.cache
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.AssemblyInfo.cs
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart..813E9236.Up2Date
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.dll
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\refint\PakMart.Infrastructure.dll
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\PakMart.Infrastructure.pdb
+D:\Teleric Projects\PakMart\PakMart.Infrastructure\obj\Release\net8.0\ref\PakMart.Infrastructure.dll

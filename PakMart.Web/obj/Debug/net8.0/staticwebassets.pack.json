@@ -1,0 +1,2101 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PakMart.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PakMart.Web.kyx0sktype.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\css\\Pakmart.css",
+      "PackagePath": "staticwebassets\\css\\Pakmart.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\0aedcfd63f31887fe7b4e51cc8551252.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\0aedcfd63f31887fe7b4e51cc8551252.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\0b151a0fc985335994017fd56ef40c23.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\0b151a0fc985335994017fd56ef40c23.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\0x0.webp",
+      "PackagePath": "staticwebassets\\images\\0x0.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\1594835242711.jpeg",
+      "PackagePath": "staticwebassets\\images\\1594835242711.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\1631348097767.jpeg",
+      "PackagePath": "staticwebassets\\images\\1631348097767.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\1e78eded8b67e1f3b87b32f2507b8811.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\1e78eded8b67e1f3b87b32f2507b8811.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\20230711_6bbf4a0c6cd4efc7_419174939879_mp4_264_hd_taobao.mp4.crdownload",
+      "PackagePath": "staticwebassets\\images\\20230711_6bbf4a0c6cd4efc7_419174939879_mp4_264_hd_taobao.mp4.crdownload"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\2033a1aaf077efe4c1c008fbf639ae92.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\2033a1aaf077efe4c1c008fbf639ae92.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\20c90856e9b9411a61c8445834a5ad16.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\20c90856e9b9411a61c8445834a5ad16.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\216e88a20768fba7b707233ce1433e38.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\216e88a20768fba7b707233ce1433e38.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\27971dcdea8341a89899e3cda97e396f-helphub-1603162860555-rc-upload-1603161626115-10.png",
+      "PackagePath": "staticwebassets\\images\\27971dcdea8341a89899e3cda97e396f-helphub-1603162860555-rc-upload-1603161626115-10.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\288e8b5a-b2df-4105-8b92-aaea2da92e56._SL480_.jpg",
+      "PackagePath": "staticwebassets\\images\\288e8b5a-b2df-4105-8b92-aaea2da92e56._SL480_.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\29f872eec9aabace347c4dc44b619fbb.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\29f872eec9aabace347c4dc44b619fbb.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\2d18873962775f2051bf3b5b334deebb.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\2d18873962775f2051bf3b5b334deebb.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\300497e838d516dbb48e3d63e8c38156.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\300497e838d516dbb48e3d63e8c38156.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\324e74796ebcfe0b94dc9730f6492b05.jpg_400x400q80.jpg",
+      "PackagePath": "staticwebassets\\images\\324e74796ebcfe0b94dc9730f6492b05.jpg_400x400q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\35daeaa0df9db2622979223310e6d6d7.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\35daeaa0df9db2622979223310e6d6d7.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\360_F_528773950_odVfKmAekTTWpEbNZbsUE0Xe2haUIsxh.jpg",
+      "PackagePath": "staticwebassets\\images\\360_F_528773950_odVfKmAekTTWpEbNZbsUE0Xe2haUIsxh.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\398c40d2e4652cd02ee453abed6da1ea.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\398c40d2e4652cd02ee453abed6da1ea.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\415P5gaQjFL._QL92_SH45_SS200_.jpg",
+      "PackagePath": "staticwebassets\\images\\415P5gaQjFL._QL92_SH45_SS200_.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\43a2f1df2be26e6a4342a0ebd3652ead.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\43a2f1df2be26e6a4342a0ebd3652ead.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\43bb3f59803c64de69ba647d4a61241e.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\43bb3f59803c64de69ba647d4a61241e.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\52-mw-solar-plant-online-in-kenya_00.webp",
+      "PackagePath": "staticwebassets\\images\\52-mw-solar-plant-online-in-kenya_00.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\59bc0533e6038781f5b1269cbb596d97.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\59bc0533e6038781f5b1269cbb596d97.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\5af4cd48dee9c34f1f88e129c99b7b7a.jpg_400x400q80.jpg",
+      "PackagePath": "staticwebassets\\images\\5af4cd48dee9c34f1f88e129c99b7b7a.jpg_400x400q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\60ffc16335c44658d2024d9ddbe52108.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\60ffc16335c44658d2024d9ddbe52108.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\649de8ef6bee44839b837a8f2659e8c0-helphub-1671587635341-rc-upload-1671586634092-32.png",
+      "PackagePath": "staticwebassets\\images\\649de8ef6bee44839b837a8f2659e8c0-helphub-1671587635341-rc-upload-1671586634092-32.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\677f9f12b09bcf865ed9a803_673b6d81420fa047a5e8d5d4_supplier-registration-form-template-hero.webp",
+      "PackagePath": "staticwebassets\\images\\677f9f12b09bcf865ed9a803_673b6d81420fa047a5e8d5d4_supplier-registration-form-template-hero.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\679484aa0e080711d50c97f515f24c41.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\679484aa0e080711d50c97f515f24c41.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\711aZ-GM4BL.jpg",
+      "PackagePath": "staticwebassets\\images\\711aZ-GM4BL.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\71X1gzIxkeL._AC_UF350,350_QL80_.jpg",
+      "PackagePath": "staticwebassets\\images\\71X1gzIxkeL._AC_UF350,350_QL80_.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\73c4d63a4d87e01f9109a4ced51ccaec.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\73c4d63a4d87e01f9109a4ced51ccaec.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\7484-02.webp",
+      "PackagePath": "staticwebassets\\images\\7484-02.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\79376ab268703d7983a5615c41d4ea3f.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\79376ab268703d7983a5615c41d4ea3f.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\7e60381868dff6450c226421936e7c08.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\7e60381868dff6450c226421936e7c08.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\87d658fc89dc8ea7.mp4",
+      "PackagePath": "staticwebassets\\images\\87d658fc89dc8ea7.mp4"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\92fea2f7ec3d4f52ae264548cd3adc1e-helphub-1603162869896-rc-upload-1603161626115-12.png",
+      "PackagePath": "staticwebassets\\images\\92fea2f7ec3d4f52ae264548cd3adc1e-helphub-1603162869896-rc-upload-1603161626115-12.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\9550b4413fef2d618a42f879714b0530.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\9550b4413fef2d618a42f879714b0530.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\95f7309c2f14c177d982657aa37ceaf3.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\95f7309c2f14c177d982657aa37ceaf3.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\9635a6586d65ca4fe9d9c40f894f4e43.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\9635a6586d65ca4fe9d9c40f894f4e43.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\9bdcdd75eb125802e0681feec222728b.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\9bdcdd75eb125802e0681feec222728b.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\A-person-in-socks-standing-on-electronic-weighing-scale.webp",
+      "PackagePath": "staticwebassets\\images\\A-person-in-socks-standing-on-electronic-weighing-scale.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Alibaba-Online-Trade-Show-Autumn.jpg",
+      "PackagePath": "staticwebassets\\images\\Alibaba-Online-Trade-Show-Autumn.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Bioaqua_Rose_Hyaluronic_Acid_Moisturizing_6_Pcs_Skin_Care_Set_1200x.webp",
+      "PackagePath": "staticwebassets\\images\\Bioaqua_Rose_Hyaluronic_Acid_Moisturizing_6_Pcs_Skin_Care_Set_1200x.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\EASE-logo1.jpg",
+      "PackagePath": "staticwebassets\\images\\EASE-logo1.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\GLP_installer_900223153_com.dts.freefireth.exe",
+      "PackagePath": "staticwebassets\\images\\GLP_installer_900223153_com.dts.freefireth.exe"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\H9e57406410584b53a534a5352c3eec06R.jpg_720x720q50.png",
+      "PackagePath": "staticwebassets\\images\\H9e57406410584b53a534a5352c3eec06R.jpg_720x720q50.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Hb64b53bc8b6840a293650ae6bc730529m (1).webp",
+      "PackagePath": "staticwebassets\\images\\Hb64b53bc8b6840a293650ae6bc730529m (1).webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Hb64b53bc8b6840a293650ae6bc730529m.webp",
+      "PackagePath": "staticwebassets\\images\\Hb64b53bc8b6840a293650ae6bc730529m.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Lip-Balm-Web-2_1024x1024.webp",
+      "PackagePath": "staticwebassets\\images\\Lip-Balm-Web-2_1024x1024.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\MC_Counting_Scale_grande.webp",
+      "PackagePath": "staticwebassets\\images\\MC_Counting_Scale_grande.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\O1CN01L5FcWy1iazQCc6aqn_!!6000000004430-55-tps-305-46.svg",
+      "PackagePath": "staticwebassets\\images\\O1CN01L5FcWy1iazQCc6aqn_!!6000000004430-55-tps-305-46.svg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\O1CN01lsRQD61TN38OdPQoc_!!6000000002369-2-tps-82-80.png",
+      "PackagePath": "staticwebassets\\images\\O1CN01lsRQD61TN38OdPQoc_!!6000000002369-2-tps-82-80.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\O1CN01uvOMYd1VtEHTU2x1A_!!6000000002710-0-tps-2880-640.jpg",
+      "PackagePath": "staticwebassets\\images\\O1CN01uvOMYd1VtEHTU2x1A_!!6000000002710-0-tps-2880-640.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\O1CN01vjAyVx23FYrqBaXJd_!!6000000007226-2-tps-2880-640.png",
+      "PackagePath": "staticwebassets\\images\\O1CN01vjAyVx23FYrqBaXJd_!!6000000007226-2-tps-2880-640.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Papers-with-scam-written-on-the-front-page-1.webp",
+      "PackagePath": "staticwebassets\\images\\Papers-with-scam-written-on-the-front-page-1.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Push-Scooter-1.webp",
+      "PackagePath": "staticwebassets\\images\\Push-Scooter-1.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S15ab8aef019a43d0ab4433a8731c358c4.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\S15ab8aef019a43d0ab4433a8731c358c4.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S1ae8c882416f491d9eb341b09fcf1fd5H.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\S1ae8c882416f491d9eb341b09fcf1fd5H.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S1c0455ddaf9243aca52a63a21c85cd6fr.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\S1c0455ddaf9243aca52a63a21c85cd6fr.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S20522dc116fd4e25b0d8babddec1633aj.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\S20522dc116fd4e25b0d8babddec1633aj.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S6c841d364d3a4ca4b3d054f827141250M.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\S6c841d364d3a4ca4b3d054f827141250M.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S74867b3e31b34e82b0eafafc3ea811aaw.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\S74867b3e31b34e82b0eafafc3ea811aaw.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\S8a1365cdee414e92848d2f143c412c40W.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\S8a1365cdee414e92848d2f143c412c40W.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Sa99964b747694fc190e1704a08e6ba1cS.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\Sa99964b747694fc190e1704a08e6ba1cS.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Saedc9c8aaaa34f7ea35a97f04874ad219.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\Saedc9c8aaaa34f7ea35a97f04874ad219.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\Scramble-tiles-with-scam-spelled.webp",
+      "PackagePath": "staticwebassets\\images\\Scramble-tiles-with-scam-spelled.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\TB1vY5WDvb2gK0jSZK9XXaEgFXa-150-150.png",
+      "PackagePath": "staticwebassets\\images\\TB1vY5WDvb2gK0jSZK9XXaEgFXa-150-150.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\ae6e2d40049cc261ba470fc2108bed93.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\ae6e2d40049cc261ba470fc2108bed93.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\b2a8ce88e80843a3954923a65576156a-helphub-1671593659758-rc-upload-1671586634092-42.png",
+      "PackagePath": "staticwebassets\\images\\b2a8ce88e80843a3954923a65576156a-helphub-1671593659758-rc-upload-1671586634092-42.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\b2e4e9bb0e1ce1eeefbb67f01772c0fb.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\b2e4e9bb0e1ce1eeefbb67f01772c0fb.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\b6aefd55fc0591e0bc6ca39641be04c5.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\b6aefd55fc0591e0bc6ca39641be04c5.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\b6b01e2065b250e5234dea0276ec13ab.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\b6b01e2065b250e5234dea0276ec13ab.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\b9063f38ddd8d434bf341516d10b309a.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\b9063f38ddd8d434bf341516d10b309a.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\b9efed42e1c1de2f0fcd1be207ae439e.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\b9efed42e1c1de2f0fcd1be207ae439e.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\back-view-office-worker-analyze-260nw-2118978332.webp",
+      "PackagePath": "staticwebassets\\images\\back-view-office-worker-analyze-260nw-2118978332.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\bbe818cf4c8ddf766fa4aeb450c6bd7f.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\bbe818cf4c8ddf766fa4aeb450c6bd7f.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\bdfc091f1facd0ba7b607d9112c494fb.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\bdfc091f1facd0ba7b607d9112c494fb.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\business-technology-internet-network-concept-260nw-559465321.webp",
+      "PackagePath": "staticwebassets\\images\\business-technology-internet-network-concept-260nw-559465321.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\c1fa99cad43f4398280afac0d1efca99.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\c1fa99cad43f4398280afac0d1efca99.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\car-holder-1.webp",
+      "PackagePath": "staticwebassets\\images\\car-holder-1.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\car-polish.webp",
+      "PackagePath": "staticwebassets\\images\\car-polish.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\car-polish4.webp",
+      "PackagePath": "staticwebassets\\images\\car-polish4.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\cdeb17d2307291214e6541e12798505d.jpeg",
+      "PackagePath": "staticwebassets\\images\\cdeb17d2307291214e6541e12798505d.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\clean-simple-email-signature-or-email-footer-design-template-with-blue-accents-minimal-personal-social-media-cover-vector.jpg",
+      "PackagePath": "staticwebassets\\images\\clean-simple-email-signature-or-email-footer-design-template-with-blue-accents-minimal-personal-social-media-cover-vector.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\consolidation-1-1.png",
+      "PackagePath": "staticwebassets\\images\\consolidation-1-1.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\customer-searching-something-which-they-260nw-2562973427.webp",
+      "PackagePath": "staticwebassets\\images\\customer-searching-something-which-they-260nw-2562973427.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\d13fae6d8856b5906f307484267d145e.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\d13fae6d8856b5906f307484267d145e.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\d4ff3e3714214efacc6cfbe7e2fda847.jpg_200x200q80.jpg_.webp",
+      "PackagePath": "staticwebassets\\images\\d4ff3e3714214efacc6cfbe7e2fda847.jpg_200x200q80.jpg_.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\dbd187d6c6dd4795899c2fbac6b80b75-helphub-1671593646203-rc-upload-1671586634092-40.png",
+      "PackagePath": "staticwebassets\\images\\dbd187d6c6dd4795899c2fbac6b80b75-helphub-1671593646203-rc-upload-1671586634092-40.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\dd0a716ed7bd9be5566bd0666a5fd65b.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\dd0a716ed7bd9be5566bd0666a5fd65b.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\depositphotos_255322186-stock-photo-attractive-happy-freelancer-using-laptop.jpg",
+      "PackagePath": "staticwebassets\\images\\depositphotos_255322186-stock-photo-attractive-happy-freelancer-using-laptop.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (1).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (1).png",
+      "PackagePath": "staticwebassets\\images\\download (1).png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (2).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (2).png",
+      "PackagePath": "staticwebassets\\images\\download (2).png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (3).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (3).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (4).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (4).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (5).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (5).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (6).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (6).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (7).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (7).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (8).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (8).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download (9).jpeg",
+      "PackagePath": "staticwebassets\\images\\download (9).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download.jpeg",
+      "PackagePath": "staticwebassets\\images\\download.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\download.png",
+      "PackagePath": "staticwebassets\\images\\download.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\e853d8b76cfe2f33402cbd8bef661fea.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\e853d8b76cfe2f33402cbd8bef661fea.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\e94bb47cad32a876.mp4",
+      "PackagePath": "staticwebassets\\images\\e94bb47cad32a876.mp4"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\ede9559ac415ac7353952f2352efbf41.jpg_400x400q80.jpg",
+      "PackagePath": "staticwebassets\\images\\ede9559ac415ac7353952f2352efbf41.jpg_400x400q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\fad73f5597c5c920561003404f2340cd.jpg_170x170q80.jpg",
+      "PackagePath": "staticwebassets\\images\\fad73f5597c5c920561003404f2340cd.jpg_170x170q80.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\fd81d01ca8c5a933693825923c01b1f8.png_170x170q80.png",
+      "PackagePath": "staticwebassets\\images\\fd81d01ca8c5a933693825923c01b1f8.png_170x170q80.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\feae3cbf8d4f4f3083353464134f1490-helphub-1671593631683-rc-upload-1671586634092-38.png",
+      "PackagePath": "staticwebassets\\images\\feae3cbf8d4f4f3083353464134f1490-helphub-1671593631683-rc-upload-1671586634092-38.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\gettyimages-182060333-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\gettyimages-182060333-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\gettyimages-806471654-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\gettyimages-806471654-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\glass-skin-GettyImages-1194475408-37acd03626ef480d9ef6f70fd01d98f4.jpg",
+      "PackagePath": "staticwebassets\\images\\glass-skin-GettyImages-1194475408-37acd03626ef480d9ef6f70fd01d98f4.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\gold-fashionable-elegant-watch-classic-260nw-2477327319.webp",
+      "PackagePath": "staticwebassets\\images\\gold-fashionable-elegant-watch-classic-260nw-2477327319.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\hq720.jpg",
+      "PackagePath": "staticwebassets\\images\\hq720.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (1).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (1).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (1).png",
+      "PackagePath": "staticwebassets\\images\\images (1).png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (10).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (10).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (11).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (11).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (12).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (12).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (13).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (13).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (14).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (14).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (15).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (15).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (16).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (16).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (17).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (17).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (18).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (18).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (19).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (19).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (2).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (2).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (2).png",
+      "PackagePath": "staticwebassets\\images\\images (2).png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (20).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (20).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (21).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (21).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (22).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (22).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (23).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (23).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (24).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (24).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (25).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (25).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (26).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (26).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (27).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (27).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (28).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (28).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (29).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (29).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (3).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (3).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (30).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (30).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (31).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (31).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (32).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (32).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (33).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (33).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (34).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (34).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (35).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (35).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (36).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (36).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (37).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (37).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (38).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (38).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (39).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (39).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (4).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (4).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (40).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (40).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (41).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (41).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (42).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (42).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (43).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (43).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (44).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (44).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (45).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (45).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (46).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (46).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (47).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (47).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (48).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (48).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (49).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (49).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (5).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (5).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (50).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (50).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (51).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (51).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (52).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (52).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (53).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (53).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (54).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (54).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (55).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (55).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (56).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (56).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (57).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (57).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (58).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (58).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (59).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (59).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (6).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (6).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (60).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (60).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (61).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (61).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (62).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (62).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (63).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (63).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (64).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (64).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (65).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (65).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (66).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (66).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (67).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (67).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (68).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (68).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (69).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (69).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (7).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (7).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (70).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (70).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (71).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (71).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (72).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (72).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (73).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (73).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (74).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (74).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (75).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (75).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (8).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (8).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images (9).jpeg",
+      "PackagePath": "staticwebassets\\images\\images (9).jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images.jpeg",
+      "PackagePath": "staticwebassets\\images\\images.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\images.png",
+      "PackagePath": "staticwebassets\\images\\images.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\inclusion-social-equity-icon-help-600nw-2088151699.webp",
+      "PackagePath": "staticwebassets\\images\\inclusion-social-equity-icon-help-600nw-2088151699.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\innovation-technology-digital-future-logistics-260nw-2332855843.webp",
+      "PackagePath": "staticwebassets\\images\\innovation-technology-digital-future-logistics-260nw-2332855843.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1146488500-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1146488500-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1154126998-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1154126998-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1332379666-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1332379666-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1334041236-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1334041236-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1454530428-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1454530428-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1663889855-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1663889855-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-1671644507-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-1671644507-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-525969104-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-525969104-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\istockphoto-950986656-612x612.jpg",
+      "PackagePath": "staticwebassets\\images\\istockphoto-950986656-612x612.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\o104lL.jpg",
+      "PackagePath": "staticwebassets\\images\\o104lL.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\on-time-delivery__PadWzU1MCw1NTAsIkZGRkZGRiIsMF0.webp",
+      "PackagePath": "staticwebassets\\images\\on-time-delivery__PadWzU1MCw1NTAsIkZGRkZGRiIsMF0.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic1.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic1.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic1.png",
+      "PackagePath": "staticwebassets\\images\\pic1.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic100.png",
+      "PackagePath": "staticwebassets\\images\\pic100.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic101.png",
+      "PackagePath": "staticwebassets\\images\\pic101.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic102.png",
+      "PackagePath": "staticwebassets\\images\\pic102.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic103.png",
+      "PackagePath": "staticwebassets\\images\\pic103.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic104.png",
+      "PackagePath": "staticwebassets\\images\\pic104.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic105.png",
+      "PackagePath": "staticwebassets\\images\\pic105.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic106.png",
+      "PackagePath": "staticwebassets\\images\\pic106.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic107.png",
+      "PackagePath": "staticwebassets\\images\\pic107.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic108.png",
+      "PackagePath": "staticwebassets\\images\\pic108.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic109.png",
+      "PackagePath": "staticwebassets\\images\\pic109.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic11.png",
+      "PackagePath": "staticwebassets\\images\\pic11.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic110.png",
+      "PackagePath": "staticwebassets\\images\\pic110.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic111.png",
+      "PackagePath": "staticwebassets\\images\\pic111.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic112.png",
+      "PackagePath": "staticwebassets\\images\\pic112.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic113.png",
+      "PackagePath": "staticwebassets\\images\\pic113.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic114.png",
+      "PackagePath": "staticwebassets\\images\\pic114.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic115.png",
+      "PackagePath": "staticwebassets\\images\\pic115.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic116.png",
+      "PackagePath": "staticwebassets\\images\\pic116.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic117.png",
+      "PackagePath": "staticwebassets\\images\\pic117.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic118.png",
+      "PackagePath": "staticwebassets\\images\\pic118.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic119.png",
+      "PackagePath": "staticwebassets\\images\\pic119.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic12.png",
+      "PackagePath": "staticwebassets\\images\\pic12.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic120.png",
+      "PackagePath": "staticwebassets\\images\\pic120.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic121.png",
+      "PackagePath": "staticwebassets\\images\\pic121.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic122.png",
+      "PackagePath": "staticwebassets\\images\\pic122.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic123.png",
+      "PackagePath": "staticwebassets\\images\\pic123.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic124.png",
+      "PackagePath": "staticwebassets\\images\\pic124.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic125.png",
+      "PackagePath": "staticwebassets\\images\\pic125.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic126.png",
+      "PackagePath": "staticwebassets\\images\\pic126.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic127.png",
+      "PackagePath": "staticwebassets\\images\\pic127.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic128.png",
+      "PackagePath": "staticwebassets\\images\\pic128.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic129.png",
+      "PackagePath": "staticwebassets\\images\\pic129.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic13.png",
+      "PackagePath": "staticwebassets\\images\\pic13.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic130.png",
+      "PackagePath": "staticwebassets\\images\\pic130.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic131.png",
+      "PackagePath": "staticwebassets\\images\\pic131.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic132.png",
+      "PackagePath": "staticwebassets\\images\\pic132.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic133.png",
+      "PackagePath": "staticwebassets\\images\\pic133.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic134.png",
+      "PackagePath": "staticwebassets\\images\\pic134.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic135.png",
+      "PackagePath": "staticwebassets\\images\\pic135.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic136.png",
+      "PackagePath": "staticwebassets\\images\\pic136.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic137.png",
+      "PackagePath": "staticwebassets\\images\\pic137.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic138.png",
+      "PackagePath": "staticwebassets\\images\\pic138.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic139.png",
+      "PackagePath": "staticwebassets\\images\\pic139.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic14.png",
+      "PackagePath": "staticwebassets\\images\\pic14.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic140.png",
+      "PackagePath": "staticwebassets\\images\\pic140.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic141.png",
+      "PackagePath": "staticwebassets\\images\\pic141.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic142.png",
+      "PackagePath": "staticwebassets\\images\\pic142.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic143.png",
+      "PackagePath": "staticwebassets\\images\\pic143.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic144.png",
+      "PackagePath": "staticwebassets\\images\\pic144.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic145.png",
+      "PackagePath": "staticwebassets\\images\\pic145.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic146.png",
+      "PackagePath": "staticwebassets\\images\\pic146.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic147.png",
+      "PackagePath": "staticwebassets\\images\\pic147.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic148.png",
+      "PackagePath": "staticwebassets\\images\\pic148.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic149.png",
+      "PackagePath": "staticwebassets\\images\\pic149.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic15.png",
+      "PackagePath": "staticwebassets\\images\\pic15.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic150.png",
+      "PackagePath": "staticwebassets\\images\\pic150.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic151.png",
+      "PackagePath": "staticwebassets\\images\\pic151.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic152.png",
+      "PackagePath": "staticwebassets\\images\\pic152.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic153.png",
+      "PackagePath": "staticwebassets\\images\\pic153.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic154.png",
+      "PackagePath": "staticwebassets\\images\\pic154.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic155.png",
+      "PackagePath": "staticwebassets\\images\\pic155.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic156.png",
+      "PackagePath": "staticwebassets\\images\\pic156.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic157.png",
+      "PackagePath": "staticwebassets\\images\\pic157.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic158.png",
+      "PackagePath": "staticwebassets\\images\\pic158.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic159.png",
+      "PackagePath": "staticwebassets\\images\\pic159.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic16.png",
+      "PackagePath": "staticwebassets\\images\\pic16.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic160.png",
+      "PackagePath": "staticwebassets\\images\\pic160.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic161.png",
+      "PackagePath": "staticwebassets\\images\\pic161.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic162.png",
+      "PackagePath": "staticwebassets\\images\\pic162.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic163.png",
+      "PackagePath": "staticwebassets\\images\\pic163.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic164.png",
+      "PackagePath": "staticwebassets\\images\\pic164.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic165.png",
+      "PackagePath": "staticwebassets\\images\\pic165.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic166.png",
+      "PackagePath": "staticwebassets\\images\\pic166.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic167.png",
+      "PackagePath": "staticwebassets\\images\\pic167.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic168.png",
+      "PackagePath": "staticwebassets\\images\\pic168.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic169.png",
+      "PackagePath": "staticwebassets\\images\\pic169.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic17.png",
+      "PackagePath": "staticwebassets\\images\\pic17.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic170.png",
+      "PackagePath": "staticwebassets\\images\\pic170.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic171.png",
+      "PackagePath": "staticwebassets\\images\\pic171.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic172.png",
+      "PackagePath": "staticwebassets\\images\\pic172.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic173.png",
+      "PackagePath": "staticwebassets\\images\\pic173.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic174.png",
+      "PackagePath": "staticwebassets\\images\\pic174.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic175.png",
+      "PackagePath": "staticwebassets\\images\\pic175.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic176.png",
+      "PackagePath": "staticwebassets\\images\\pic176.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic177.png",
+      "PackagePath": "staticwebassets\\images\\pic177.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic178.png",
+      "PackagePath": "staticwebassets\\images\\pic178.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic179.png",
+      "PackagePath": "staticwebassets\\images\\pic179.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic18.png",
+      "PackagePath": "staticwebassets\\images\\pic18.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic180.png",
+      "PackagePath": "staticwebassets\\images\\pic180.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic181.png",
+      "PackagePath": "staticwebassets\\images\\pic181.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic182.png",
+      "PackagePath": "staticwebassets\\images\\pic182.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic183.png",
+      "PackagePath": "staticwebassets\\images\\pic183.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic184.png",
+      "PackagePath": "staticwebassets\\images\\pic184.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic185.png",
+      "PackagePath": "staticwebassets\\images\\pic185.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic186.png",
+      "PackagePath": "staticwebassets\\images\\pic186.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic187.png",
+      "PackagePath": "staticwebassets\\images\\pic187.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic188.png",
+      "PackagePath": "staticwebassets\\images\\pic188.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic189.png",
+      "PackagePath": "staticwebassets\\images\\pic189.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic19.png",
+      "PackagePath": "staticwebassets\\images\\pic19.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic190.png",
+      "PackagePath": "staticwebassets\\images\\pic190.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic191.png",
+      "PackagePath": "staticwebassets\\images\\pic191.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic192.png",
+      "PackagePath": "staticwebassets\\images\\pic192.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic193.png",
+      "PackagePath": "staticwebassets\\images\\pic193.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic194.png",
+      "PackagePath": "staticwebassets\\images\\pic194.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic195.png",
+      "PackagePath": "staticwebassets\\images\\pic195.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic196.png",
+      "PackagePath": "staticwebassets\\images\\pic196.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic197.png",
+      "PackagePath": "staticwebassets\\images\\pic197.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic198.png",
+      "PackagePath": "staticwebassets\\images\\pic198.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic199.png",
+      "PackagePath": "staticwebassets\\images\\pic199.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic2.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic2.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic2.png",
+      "PackagePath": "staticwebassets\\images\\pic2.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic20.png",
+      "PackagePath": "staticwebassets\\images\\pic20.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic200.png",
+      "PackagePath": "staticwebassets\\images\\pic200.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic201.png",
+      "PackagePath": "staticwebassets\\images\\pic201.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic202.png",
+      "PackagePath": "staticwebassets\\images\\pic202.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic203.png",
+      "PackagePath": "staticwebassets\\images\\pic203.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic204.png",
+      "PackagePath": "staticwebassets\\images\\pic204.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic205.png",
+      "PackagePath": "staticwebassets\\images\\pic205.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic206.png",
+      "PackagePath": "staticwebassets\\images\\pic206.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic207.png",
+      "PackagePath": "staticwebassets\\images\\pic207.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic208.png",
+      "PackagePath": "staticwebassets\\images\\pic208.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic209.png",
+      "PackagePath": "staticwebassets\\images\\pic209.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic21.png",
+      "PackagePath": "staticwebassets\\images\\pic21.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic210.png",
+      "PackagePath": "staticwebassets\\images\\pic210.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic211.png",
+      "PackagePath": "staticwebassets\\images\\pic211.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic212.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic212.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic213.png",
+      "PackagePath": "staticwebassets\\images\\pic213.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic214.avif",
+      "PackagePath": "staticwebassets\\images\\pic214.avif"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic214.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic214.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic215.jpg",
+      "PackagePath": "staticwebassets\\images\\pic215.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic216.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic216.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic217.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic217.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic218.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic218.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic219.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic219.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic22.png",
+      "PackagePath": "staticwebassets\\images\\pic22.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic220.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic220.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic221.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic221.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic222.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic222.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic223.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic223.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic224.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic224.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic225.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic225.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic226.jpg",
+      "PackagePath": "staticwebassets\\images\\pic226.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic227.png",
+      "PackagePath": "staticwebassets\\images\\pic227.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic228.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic228.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic229.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic229.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic23.png",
+      "PackagePath": "staticwebassets\\images\\pic23.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic24.png",
+      "PackagePath": "staticwebassets\\images\\pic24.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic25.png",
+      "PackagePath": "staticwebassets\\images\\pic25.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic26.png",
+      "PackagePath": "staticwebassets\\images\\pic26.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic27.png",
+      "PackagePath": "staticwebassets\\images\\pic27.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic28.png",
+      "PackagePath": "staticwebassets\\images\\pic28.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic28.zip",
+      "PackagePath": "staticwebassets\\images\\pic28.zip"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic29.png",
+      "PackagePath": "staticwebassets\\images\\pic29.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic3.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic3.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic3.png",
+      "PackagePath": "staticwebassets\\images\\pic3.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic30.png",
+      "PackagePath": "staticwebassets\\images\\pic30.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic31.png",
+      "PackagePath": "staticwebassets\\images\\pic31.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic32.png",
+      "PackagePath": "staticwebassets\\images\\pic32.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic33.png",
+      "PackagePath": "staticwebassets\\images\\pic33.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic34.png",
+      "PackagePath": "staticwebassets\\images\\pic34.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic35.png",
+      "PackagePath": "staticwebassets\\images\\pic35.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic36.png",
+      "PackagePath": "staticwebassets\\images\\pic36.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic37.png",
+      "PackagePath": "staticwebassets\\images\\pic37.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic38.png",
+      "PackagePath": "staticwebassets\\images\\pic38.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic39.png",
+      "PackagePath": "staticwebassets\\images\\pic39.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic4.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic4.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic4.png",
+      "PackagePath": "staticwebassets\\images\\pic4.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic40.png",
+      "PackagePath": "staticwebassets\\images\\pic40.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic41.png",
+      "PackagePath": "staticwebassets\\images\\pic41.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic42.png",
+      "PackagePath": "staticwebassets\\images\\pic42.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic43.png",
+      "PackagePath": "staticwebassets\\images\\pic43.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic44.png",
+      "PackagePath": "staticwebassets\\images\\pic44.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic45.png",
+      "PackagePath": "staticwebassets\\images\\pic45.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic46.png",
+      "PackagePath": "staticwebassets\\images\\pic46.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic47.png",
+      "PackagePath": "staticwebassets\\images\\pic47.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic48.png",
+      "PackagePath": "staticwebassets\\images\\pic48.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic5 (1).png",
+      "PackagePath": "staticwebassets\\images\\pic5 (1).png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic5.jpeg",
+      "PackagePath": "staticwebassets\\images\\pic5.jpeg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic50.png",
+      "PackagePath": "staticwebassets\\images\\pic50.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic51.png",
+      "PackagePath": "staticwebassets\\images\\pic51.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic52.png",
+      "PackagePath": "staticwebassets\\images\\pic52.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic53.png",
+      "PackagePath": "staticwebassets\\images\\pic53.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic54.png",
+      "PackagePath": "staticwebassets\\images\\pic54.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic55.png",
+      "PackagePath": "staticwebassets\\images\\pic55.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic56.png",
+      "PackagePath": "staticwebassets\\images\\pic56.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic57.png",
+      "PackagePath": "staticwebassets\\images\\pic57.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic58.png",
+      "PackagePath": "staticwebassets\\images\\pic58.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic59.png",
+      "PackagePath": "staticwebassets\\images\\pic59.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic6.png",
+      "PackagePath": "staticwebassets\\images\\pic6.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic60.png",
+      "PackagePath": "staticwebassets\\images\\pic60.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic61.png",
+      "PackagePath": "staticwebassets\\images\\pic61.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic62.png",
+      "PackagePath": "staticwebassets\\images\\pic62.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic63.png",
+      "PackagePath": "staticwebassets\\images\\pic63.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic64.png",
+      "PackagePath": "staticwebassets\\images\\pic64.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic65.png",
+      "PackagePath": "staticwebassets\\images\\pic65.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic66.png",
+      "PackagePath": "staticwebassets\\images\\pic66.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic67.png",
+      "PackagePath": "staticwebassets\\images\\pic67.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic68.png",
+      "PackagePath": "staticwebassets\\images\\pic68.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic69.png",
+      "PackagePath": "staticwebassets\\images\\pic69.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic7.png",
+      "PackagePath": "staticwebassets\\images\\pic7.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic70.png",
+      "PackagePath": "staticwebassets\\images\\pic70.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic71.png",
+      "PackagePath": "staticwebassets\\images\\pic71.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic72.png",
+      "PackagePath": "staticwebassets\\images\\pic72.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic73.png",
+      "PackagePath": "staticwebassets\\images\\pic73.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic75.png",
+      "PackagePath": "staticwebassets\\images\\pic75.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic76.png",
+      "PackagePath": "staticwebassets\\images\\pic76.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic77.png",
+      "PackagePath": "staticwebassets\\images\\pic77.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic78.png",
+      "PackagePath": "staticwebassets\\images\\pic78.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic79.png",
+      "PackagePath": "staticwebassets\\images\\pic79.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic8.png",
+      "PackagePath": "staticwebassets\\images\\pic8.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic80.png",
+      "PackagePath": "staticwebassets\\images\\pic80.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic81.png",
+      "PackagePath": "staticwebassets\\images\\pic81.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic82.png",
+      "PackagePath": "staticwebassets\\images\\pic82.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic84.png",
+      "PackagePath": "staticwebassets\\images\\pic84.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic85.png",
+      "PackagePath": "staticwebassets\\images\\pic85.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic86.png",
+      "PackagePath": "staticwebassets\\images\\pic86.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic87.png",
+      "PackagePath": "staticwebassets\\images\\pic87.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic88.png",
+      "PackagePath": "staticwebassets\\images\\pic88.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic89.png",
+      "PackagePath": "staticwebassets\\images\\pic89.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic9.png",
+      "PackagePath": "staticwebassets\\images\\pic9.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic90.png",
+      "PackagePath": "staticwebassets\\images\\pic90.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic91.png",
+      "PackagePath": "staticwebassets\\images\\pic91.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic92.png",
+      "PackagePath": "staticwebassets\\images\\pic92.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic93.png",
+      "PackagePath": "staticwebassets\\images\\pic93.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic94.png",
+      "PackagePath": "staticwebassets\\images\\pic94.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic95.png",
+      "PackagePath": "staticwebassets\\images\\pic95.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic96.png",
+      "PackagePath": "staticwebassets\\images\\pic96.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic97.png",
+      "PackagePath": "staticwebassets\\images\\pic97.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic98.png",
+      "PackagePath": "staticwebassets\\images\\pic98.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pic99.png",
+      "PackagePath": "staticwebassets\\images\\pic99.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\picc171.png",
+      "PackagePath": "staticwebassets\\images\\picc171.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\piv49.png",
+      "PackagePath": "staticwebassets\\images\\piv49.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pngtree-girl-at-home-at-night-in-the-living-room-looking-at-image_796391.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-girl-at-home-at-night-in-the-living-room-looking-at-image_796391.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\pngtree-member-after-sales-protection-card-picture-image_1132237.jpg",
+      "PackagePath": "staticwebassets\\images\\pngtree-member-after-sales-protection-card-picture-image_1132237.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\ppp.webp",
+      "PackagePath": "staticwebassets\\images\\ppp.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\reverse-image-search.png",
+      "PackagePath": "staticwebassets\\images\\reverse-image-search.png"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\sddefault.jpg",
+      "PackagePath": "staticwebassets\\images\\sddefault.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\student-849822_1280.jpg",
+      "PackagePath": "staticwebassets\\images\\student-849822_1280.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\supplier-300x300.webp",
+      "PackagePath": "staticwebassets\\images\\supplier-300x300.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\supply-chain-concept-journey-goods-260nw-2574399595.webp",
+      "PackagePath": "staticwebassets\\images\\supply-chain-concept-journey-goods-260nw-2574399595.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\team-dedicated-customer-service-technical-260nw-2263718689.webp",
+      "PackagePath": "staticwebassets\\images\\team-dedicated-customer-service-technical-260nw-2263718689.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\turkey-installed-1-14-gw-solar-in-2021_00.webp",
+      "PackagePath": "staticwebassets\\images\\turkey-installed-1-14-gw-solar-in-2021_00.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\vendr_selctn_prcss.jpg",
+      "PackagePath": "staticwebassets\\images\\vendr_selctn_prcss.jpg"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\wholesale-distribution-business-jpg.webp",
+      "PackagePath": "staticwebassets\\images\\wholesale-distribution-business-jpg.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\images\\young-handsome-attractive-asian-man-clean-radiant-face-male-beauty-skin-care-concepts-young-handsome-attractive-asian-167617572.webp",
+      "PackagePath": "staticwebassets\\images\\young-handsome-attractive-asian-man-clean-radiant-face-male-beauty-skin-care-concepts-young-handsome-attractive-asian-167617572.webp"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\js\\register.js",
+      "PackagePath": "staticwebassets\\js\\register.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Teleric Projects\\PakMart\\PakMart.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PakMart.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PakMart.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PakMart.Web.props",
+      "PackagePath": "build\\PakMart.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PakMart.Web.props",
+      "PackagePath": "buildMultiTargeting\\PakMart.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PakMart.Web.props",
+      "PackagePath": "buildTransitive\\PakMart.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

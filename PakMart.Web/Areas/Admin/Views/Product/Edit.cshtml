@@ -1,0 +1,289 @@
+﻿@{
+    ViewData["Title"] = "Edit product details";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+<style>
+    .form-label-required::after {
+        content: '*';
+        color: red;
+        margin-left: 4px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #3C8DBC !important;
+    }
+</style>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h5 class="mb-0">
+        Edit product details - Product-1
+        <a asp-action="List" asp-controller="Product" class="ms-2 text-decoration-none link">&larr; back to product list</a>
+    </h5>
+    <div>
+        <button type="submit" class="btn btn-sm btn-primary">Save</button>
+        <button type="submit" class="btn btn-sm btn-primary">Save and Continue Edit</button>
+        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+    </div>
+</div>
+
+<form id="productForm">
+    <div>
+        <div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="productName" class="form-label form-label-required">Product Name</label>
+                    <input type="text" class="form-control" id="productName" placeholder="Enter product name">
+                </div>
+                <div class="col-md-4">
+                    <label for="sku" class="form-label">SKU</label>
+                    <input type="text" class="form-control" id="sku">
+                </div>
+                <div class="col-md-4">
+                    <label for="barcode" class="form-label">Barcode</label>
+                    <canvas id="barcode" class="form-control" style="height: 38px !important;"></canvas>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="manufacturer" class="form-label">Manufacturer</label>
+                    <select class="form-select" id="manufacturer">
+                        <option value="">Select Manufacturer</option>
+                        <option value="apple">Apple</option>
+                        <option value="HP">HP</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="categories" class="form-label">Categories</label>
+                    <select class="form-select" id="categories" multiple>
+                        <option value="computers">Computers</option>
+                        <option value="computers-desktops">Computers >> Desktops</option>
+                        <option value="computers-notebooks">Computers >> Notebooks</option>
+                        <option value="computers-software">Computers >> Software</option>
+                        <option value="electronics">Electronics</option>
+                        <option value="electronics-camera">Electronics >> Camera & photo</option>
+                    </select>
+                </div>
+                <div class="col-md-2 d-flex align-items-center gap-2">
+                    <label class="form-label" for="publish">
+                        Publish
+                    </label>
+                    <input class="form-check-input mt-0" type="checkbox" id="publish" name="publish">
+                </div>
+                <div class="col-md-2 d-flex align-items-center gap-2">
+                    <label class="form-label" for="returnable">Returnable</label>
+                    <input class="form-check-input mt-0" type="checkbox" id="returnable" name="Returnable">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label for="wstartdate" class="form-label">Warranty Start Date</label>
+                    <input type="date" class="form-control" id="wstartdate">
+                </div>
+                <div class="col-md-4">
+                    <label for="wenddate" class="form-label">Warranty End Date</label>
+                    <input type="date" class="form-control" id="wenddate">
+                </div>
+                <div class="col-md-4">
+                    <label for="remainingDays" class="form-label">Remaining Days</label>
+                    <input type="number" class="form-control" id="remainingDays" disabled>
+                </div>
+            </div>
+            <div class="row mb-3">
+
+                <div class="col-md-4">
+                    <label for="costPrice" class="form-label">Cost Price</label>
+                    <input type="number" class="form-control" id="costPrice" placeholder="Enter cost price">
+                </div>
+                <div class="col-md-4">
+                    <label for="saleTax" class="form-label">Sales Tax</label>
+                    <input type="number" class="form-control" id="saleTax" placeholder="Enter sales tax">
+                </div>
+                <div class="col-md-4">
+                    <label for="freight" class="form-label">Freight</label>
+                    <input type="number" class="form-control" id="freight" placeholder="Enter freight">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label for="oStock" class="form-label">Opening Stock</label>
+                    <input type="number" class="form-control" id="oStock" placeholder="Enter opening stock">
+                </div>
+                <div class="col-md-2">
+                    <label for="mStock" class="form-label">Minimum Stock</label>
+                    <input type="number" class="form-control" id="mStock" placeholder="Enter minimum stock">
+                </div>
+                <div class="col-md-2">
+                    <label for="warehouse" class="form-label">Warehouse</label>
+                    <input type="number" class="form-control" id="warehouse" placeholder="Enter warehouse no.">
+                </div>
+                <div class="col-md-2">
+                    <label for="aisle" class="form-label">Aisle</label>
+                    <input type="number" class="form-control" id="aisle" placeholder="Enter aisle no.">
+                </div>
+                <div class="col-md-2">
+                    <label for="rack" class="form-label">Rack</label>
+                    <input type="number" class="form-control" id="rack" placeholder="Enter rack no.">
+                </div>
+                <div class="col-md-2">
+                    <label for="bin" class="form-label">Bin</label>
+                    <input type="number" class="form-control" id="bin" placeholder="Enter bin no.">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-2">
+                    <label for="length" class="form-label">Length (L)</label>
+                    <input type="number" class="form-control" id="length" placeholder="cm/in">
+                </div>
+                <div class="col-md-2">
+                    <label for="width" class="form-label">Width (W)</label>
+                    <input type="number" class="form-control" id="width" placeholder="cm/in">
+                </div>
+                <div class="col-md-2">
+                    <label for="height" class="form-label">Height (H)</label>
+                    <input type="number" class="form-control" id="height" placeholder="cm/in">
+                </div>
+                <div class="col-md-2">
+                    <label for="diameter" class="form-label">Diameter (Dia)</label>
+                    <input type="number" class="form-control" id="diameter" placeholder="cm/in">
+                </div>
+                <div class="col-md-2">
+                    <label for="weight" class="form-label">Weight</label>
+                    <input type="number" class="form-control" id="weight" placeholder="kg/lb">
+                </div>
+
+            </div>
+            <div class="mb-3">
+                <label for="shortDesc" class="form-label">Short Description</label>
+                <textarea class="form-control" id="shortDesc" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+                <label for="fullDesc" class="form-label">Full Description</label>
+                <textarea class="form-control" id="fullDesc" rows="6"></textarea>
+            </div>
+
+            <!-- File Upload (optional, for pictures) -->
+            <div class="mb-3">
+                <label class="form-label">Add Pictures</label>
+                <div class="d-flex align-items-center gap-2 flex-wrap">
+                    <div id="fileList" class="me-3"></div>
+                    <input type="file" id="pictureInput" accept="image/*" multiple hidden>
+                    <button class="btn btn-success" type="button" onclick="document.getElementById('pictureInput').click();">
+                        Upload files
+                    </button>
+                </div>
+
+                <!-- Image Preview Area -->
+                <div id="imagePreview" class="mt-3 d-flex flex-wrap gap-2"></div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+<!-- JsBarcode -->
+<script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+
+<!-- Your custom script -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var skuInput = document.getElementById('sku');
+        var barcodeInput = document.getElementById('barcode');
+        var skuCounter = 1;
+
+        function generateNextSKU() {
+            var nextSKU = 'SKU' + skuCounter.toString().padStart(4, '0');
+            skuInput.value = nextSKU;
+
+            JsBarcode("#barcode", nextSKU, {
+                format: "CODE128",
+                displayValue: false
+            });
+        }
+
+        generateNextSKU();
+
+        skuInput.addEventListener('input', function () {
+            var skuValue = skuInput.value;
+
+            JsBarcode("#barcode", skuValue, {
+                format: "CODE128",
+                displayValue: false
+            });
+        });
+
+        // document.getElementById('increaseSKU').addEventListener('click', function () {
+        //     skuCounter++;
+        //     generateNextSKU();
+        // });
+    });
+</script>
+
+<script>
+    const startDateInput = document.getElementById('wstartdate');
+    const endDateInput = document.getElementById('wenddate');
+    const remainingDaysInput = document.getElementById('remainingDays');
+
+    function calculateRemainingDays() {
+        const startDate = new Date(startDateInput.value);
+        const endDate = new Date(endDateInput.value);
+
+        if (!isNaN(startDate) && !isNaN(endDate)) {
+            const timeDiff = endDate - startDate;
+            const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+            remainingDaysInput.value = daysDiff >= 0 ? daysDiff : 0;
+        } else {
+            remainingDaysInput.value = '';
+        }
+    }
+
+    startDateInput.addEventListener('change', calculateRemainingDays);
+    endDateInput.addEventListener('change', calculateRemainingDays);
+</script>
+<script>
+    document.getElementById('pictureInput').addEventListener('change', function (event) {
+        const files = event.target.files;
+        const previewContainer = document.getElementById('imagePreview');
+
+        // Clear previous previews
+        previewContainer.innerHTML = '';
+
+        Array.from(files).forEach(file => {
+            if (file.type.startsWith('image/')) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    img.className = "rounded border";
+                    img.style.width = "100px";
+                    img.style.height = "100px";
+                    img.style.objectFit = "cover";
+                    previewContainer.appendChild(img);
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#categories').select2({
+            placeholder: "Select categories"
+        });
+
+        $('#fullDesc').summernote({
+            height: 150
+        });
+    });
+</script>

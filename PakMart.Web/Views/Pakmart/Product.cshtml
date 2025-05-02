@@ -1,0 +1,638 @@
+﻿
+
+<script src="~/js/register.js"></script>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div id="successMessage" class="alert alert-success alert-dismissible fade show position-fixed top-0 start-50 translate-middle-x mt-3"
+         role="alert" style="z-index: 1050; width: 50%;">
+        @TempData["SuccessMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+
+<div class="container-fluid my-5">
+    <!-- Carousel -->
+    <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            @* <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button> *@
+            @* <button type="button" data-bs-target="#imageCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button> *@
+        </div>
+
+        <!-- Carousel Items -->
+        <div class="carousel-inner px-4">
+            <div class="carousel-item active">
+                <img src="~/images/pic73.png" class="d-block w-100 rounded img-fluid" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/pic75.png" class="d-block w-100 rounded img-fluid" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/pic76.png" class="d-block w-100 rounded img-fluid" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/pic77.png" class="d-block w-100 rounded img-fluid" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="~/images/pic78.png" class="d-block w-100 rounded img-fluid" alt="Image 5">
+            </div>
+            @* <div class="carousel-item"> *@
+            @*     <img src="~/images/pic78.png" class="d-block w-100 rounded img-fluid" alt="Image 6"> *@
+            @* </div> *@
+            <!-- <div class="carousel-item">
+              <img src="/O1CN01vjAyVx23FYrqBaXJd_!!6000000007226-2-tps-2880-640.png" class="d-block w-100 rounded img-fluid" alt="Image 7">
+            </div> -->
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+
+<div class="container-fluid py-3 px-5 mt-3">
+    <div class="row">
+        <h2 class="mb-4 mt-3">Just For You</h2>
+
+        <div class="row gx-1">
+            <!-- Product Card 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/S8a1365cdee414e92848d2f143c412c40W.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">Exaggerate Shiny Mesh Design Hoop Earrings Iron Jewelry Rhinestones Inlaid Elegant Leisure Style For Women Party Earrings</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 316</span>
+                            <span class="text-muted"><del>Rs 632</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.8)</span>
+                        </div>
+                        <p class="text-muted">4.8K sold</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat similar blocks for other products -->
+            <!-- Product Card 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/324e74796ebcfe0b94dc9730f6492b05.jpg_400x400q80.jpg" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">Plastic Makeup Storage Box Cosmetic Organizer Jewelry Box Small Drawer Office Home Miscellaneous</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 239</span>
+                            <span class="text-muted"><del>Rs 399</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/59bc0533e6038781f5b1269cbb596d97.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">  Hoodies For Men and boy stripes Printed Kangaroo Hoodie Pocket Drawstring Pullovers Clothing Long Sleeves Export Quality Winter Wear</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 911</span>
+                            <span class="text-muted"><del>Rs 2250</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/2d18873962775f2051bf3b5b334deebb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate"> M10 , A6s , F2 earbuds Headphones,Handfree,EarPhone, Bluetooth Neckband Magnetic Earphones Sport Running Earbuds Waterproof Bluetooth 5.2 Headset With Mic, SM Trader</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 395</span>
+                            <span class="text-muted"><del>Rs 1,124</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.9)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat Product Card 3, Product Card 4, etc. -->
+        </div>
+
+
+        <div class="row gx-1">
+            <!-- Product Card 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/Saedc9c8aaaa34f7ea35a97f04874ad219.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate"> softy sandal for boy's||sandal for mens soft and comfortable</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 639</span>
+                            <span class="text-muted"><del>Rs 1,200</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.6)</span>
+                        </div>
+                        <p class="text-muted">4.8K sold</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat similar blocks for other products -->
+            <!-- Product Card 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/43a2f1df2be26e6a4342a0ebd3652ead.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate"> Winter Swet Shirts & Trouser Pajama For Girls & Boys</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 683</span>
+                            <span class="text-muted"><del>Rs 1,500</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/d13fae6d8856b5906f307484267d145e.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">   Wallets for Women Long Pu Leather Hand Purse Zipper Metal Circle Decor Wallets for Girls Female Hasp Coin Purse Clutch Card Money Bag Girls Singaar Wallets Collection</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 280</span>
+                            <span class="text-muted"><del>Rs 799</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/ae6e2d40049cc261ba470fc2108bed93.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate"> Aua n Co Winter Premium Fleece Cute Cat Pullover Hoodie for Women for Girls</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 699</span>
+                            <span class="text-muted"><del>Rs 1,600</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.9)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat Product Card 3, Product Card 4, etc. -->
+        </div>
+
+
+        <div class="row gx-1">
+            <!-- Product Card 1 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/S1c0455ddaf9243aca52a63a21c85cd6fr.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 1">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">  Flat sandals for womens</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 640</span>
+                            <span class="text-muted"><del>Rs 1,999</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.3)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat similar blocks for other products -->
+            <!-- Product Card 2 -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/b2e4e9bb0e1ce1eeefbb67f01772c0fb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">Decorative Butterfly Wall Shelf, Decoration Candlestick, Wall Décor Ideas, Wooden Wall Shelves ( Candle Light Not Include )</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 79</span>
+                            <span class="text-muted"><del>Rs 499</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/bdfc091f1facd0ba7b607d9112c494fb.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">  F3 Mobile Screen Magnifier 3D Enlarged Screen Display Mobile Stand High Quality</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 299</span>
+                            <span class="text-muted"><del>Rs 900</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.5)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                <div class="card border-0">
+                    <img src="~/images/2033a1aaf077efe4c1c008fbf639ae92.jpg_200x200q80.jpg_.webp" class="card-img-top img-fluid" alt="Product 2">
+                    <div class="card-body text-center">
+                        <h6 class="card-title text-truncate">Beeswax Furniture Polish ,Wood Seasoning Beeswax | Natural Wood Wax Traditional Beeswax Polish for Wood & Furniture | Beeswax Wood Polish and Cleaner for Furniture Care</h6>
+                        <p class="mb-1">
+                            <span class="fw-bold">Rs 299</span>
+                            <span class="text-muted"><del>Rs 800</del></span>
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center mb-2">
+                            <span class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </span>
+                            <span class="ms-2 text-muted">(4.6)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat Product Card 3, Product Card 4, etc. -->
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid bb rounded">
+    <div class="row text-center pt-4 pb-4">
+        <div class="col-12 col-md-3 d-flex justify-content-center align-items-center">
+            <i class="fas fa-check-circle fa-2x text-white me-2"></i>
+            <h5 class="mb-0">Pakmart Guaranteed</h5>
+        </div>
+        <div class="col-12 col-md-5 d-flex justify-content-center align-items-center mt-3 mt-md-0 px-4">
+            <i class="fas fa-check-circle fa-2x text-white me-2"></i>
+            <h5 class="mb-0">Guaranteed delivery by the scheduled dates</h5>
+        </div>
+        <div class="col-12 col-md-4 d-flex justify-content-center align-items-center mt-3 mt-md-0 ">
+            <i class="fas fa-check-circle fa-2x text-white me-2"></i>
+            <h5 class="mb-0">Money-back guarantee</h5>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-5">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+            <h2>Top ranking</h2>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
+            <button class="btn btn-outline-success">View more</button>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12 d-flex flex-wrap ">
+            <button class="btn btn-success text-white mx-2 mb-2">Most Popular</button>
+            <button class="btn btn-outline-success mx-2 mb-2 px-4">Hot Selling</button>
+            <button class="btn btn-outline-success mx-2 mb-2">Best Reviewed</button>
+        </div>
+    </div>
+
+    <div class="row mt-5 ">
+        <!-- Shopping Bags Section -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5 ">
+            <h4 class="border-bottom">Shopping Bags</h4>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic93.png" alt="Shopping Bag 1" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.5</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic94.png" alt="Shopping Bag 2" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.4</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic95.png" alt="Shopping Bag 3" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.4</p>
+            </div>
+        </div>
+
+        <!-- Lipstick Section -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5 ">
+            <h4 class="border-bottom">Lipstick</h4>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic96.png" alt="Lipstick 1" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.6</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic97.png" alt="Lipstick 2" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.5</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <img src="/pic98.png" alt="Lipstick 3" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.4</p>
+            </div>
+        </div>
+
+        <!-- Niacinamide Skin Care Serum Section -->
+        <div class="col-12 col-md-6 col-lg-4 mb-5">
+            <h4 class="border-bottom">Niacinamide Skin Care Serum</h4>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic99.png" alt="Serum 1" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.4</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic100.png" alt="Serum 2" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.4</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+                <img src="~/images/pic101.png" alt="Serum 3" class="w-25" />
+                <p class="fs-5 mx-1">Popularity score: 4.3</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-4 mb-5">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+            <h2>New arrivals</h2>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
+            <button class="btn btn-outline-success">View more</button>
+        </div>
+    </div>
+    <div class="row mt-3 d-flex justify-content-between">
+        <!-- First Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic102.png" class="img-fluid rounded" alt="Product 1" />
+                <h6>$3.00</h6>
+                <p>Effective ingredients</p>
+            </div>
+        </div>
+
+        <!-- Second Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic103.png" class="img-fluid rounded" alt="Product 2" />
+                <h6>$2.20-3.80</h6>
+                <p>Effective ingredients</p>
+            </div>
+        </div>
+
+        <!-- Third Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic104.png" class="img-fluid rounded" alt="Product 3" />
+                <h6>$3.47</h6>
+                <p>Min. order 1 piece</p>
+            </div>
+        </div>
+
+        <!-- Fourth Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic105.png" class="img-fluid rounded" alt="Product 4" />
+                <h6>$1.44</h6>
+                <p>Min. order 3 pieces</p>
+            </div>
+        </div>
+
+        <!-- Fifth Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic106.png" class="img-fluid rounded" alt="Product 5" />
+                <h6>$5.22-5.50</h6>
+                <p>Min. order 2 pieces</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-4 mb-5">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+            <h2>Local returns for free</h2>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
+            <button class="btn btn-outline-success">View more</button>
+        </div>
+    </div>
+    <div class="row mt-3 d-flex justify-content-between">
+        <!-- First Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic107.png" class="img-fluid rounded" alt="Product 1" />
+
+                <p>Wall panels & Boards</p>
+            </div>
+        </div>
+
+        <!-- Second Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic108.png" class="img-fluid rounded" alt="Product 2" />
+
+                <p>Wallpaper roll</p>
+            </div>
+        </div>
+
+        <!-- Third Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic109.png" class="img-fluid rounded" alt="Product 3" />
+
+                <p>Kitchen Sinks</p>
+            </div>
+        </div>
+
+        <!-- Fourth Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic110.png" class="img-fluid rounded" alt="Product 4" />
+
+                <p>Door & Window Screen</p>
+            </div>
+        </div>
+
+        <!-- Fifth Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic111.png" class="img-fluid rounded" alt="Product 5" />
+
+                <p>Shutters</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid mt-4 mb-5">
+    <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+            <h2>Source by energy application</h2>
+        </div>
+        <div class="col-12 col-md-6 d-flex justify-content-md-end mt-3 mt-md-0">
+            <button class="btn btn-outline-success">View more</button>
+        </div>
+    </div>
+    <div class="row mt-3 d-flex justify-content-between">
+        <!-- First Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic112.png" class="img-fluid rounded" alt="Product 1" />
+
+                <p>Wind-solar hybrid systems</p>
+            </div>
+        </div>
+
+        <!-- Second Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic113.png" class="img-fluid rounded" alt="Product 2" />
+
+                <p>Off-grid energy solar systems</p>
+            </div>
+        </div>
+
+        <!-- Third Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic114.png" class="img-fluid rounded" alt="Product 3" />
+
+                <p>Portable power stations</p>
+            </div>
+        </div>
+
+        <!-- Fourth Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic115.png" class="img-fluid rounded" alt="Product 4" />
+
+                <p>Solar gadgets</p>
+            </div>
+        </div>
+
+        <!-- Fifth Item -->
+        <div class="col-12 col-sm-6 col-lg-2 text-center">
+            <div>
+                <img src="~/images/pic116.png" class="img-fluid rounded" alt="Product 5" />
+
+                <p>Home energy storage systems</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

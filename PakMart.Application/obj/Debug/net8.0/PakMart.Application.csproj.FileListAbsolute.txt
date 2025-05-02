@@ -1,0 +1,15 @@
+D:\Teleric Projects\PakMart\PakMart.Application\bin\Debug\net8.0\PakMart.Application.deps.json
+D:\Teleric Projects\PakMart\PakMart.Application\bin\Debug\net8.0\PakMart.Application.dll
+D:\Teleric Projects\PakMart\PakMart.Application\bin\Debug\net8.0\PakMart.Application.pdb
+D:\Teleric Projects\PakMart\PakMart.Application\bin\Debug\net8.0\PakMart.Domain.dll
+D:\Teleric Projects\PakMart\PakMart.Application\bin\Debug\net8.0\PakMart.Domain.pdb
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.csproj.AssemblyReference.cache
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.AssemblyInfoInputs.cache
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.AssemblyInfo.cs
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.csproj.CoreCompileInputs.cache
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart..FAF52165.Up2Date
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.dll
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\refint\PakMart.Application.dll
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\PakMart.Application.pdb
+D:\Teleric Projects\PakMart\PakMart.Application\obj\Debug\net8.0\ref\PakMart.Application.dll
