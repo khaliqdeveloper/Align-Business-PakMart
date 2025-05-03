@@ -1,5 +1,192 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Edit order details";
 }
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+
+<style>
+    .form-label-required::after {
+        content: '*';
+        color: red;
+        margin-left: 4px;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #3C8DBC !important;
+    }
+</style>
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h5 class="mb-0">
+        Edit order details - 1
+
+        <a asp-action="List" asp-controller="Order" class="ms-2 text-decoration-none link">
+            &larr; back to order list
+        </a>
+    </h5>
+    <div>
+        <button class="btn btn-sm btn-success" onclick="approvedSelected()">
+            <i class="fa fa-check-circle"></i> Print PDF Invoices
+        </button>
+        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+    </div>
+</div>
+
+<form id="productForm">
+    <div>
+        <div>
+
+            <div class="row mb-3">
+                <div class="col-md-4" style="display: flex;">
+                    <label for="manufacturerName" class="form-label">Order #:</label>
+                    <p style="margin-left: 8px !important;">1</p>
+                </div>
+                <div class="col-md-4" style="display: flex;">
+                    <label for="displayOrder" class="form-label">Customer:</label>
+                    <a href="#" class="link" style="margin-left: 8px !important;">John Doe</a>
+                </div>
+                <div class="col-md-4" style="display: flex;">
+                    <label for="displayOrder" class="form-label">Created on:</label>
+                    <p style="margin-left: 8px !important;">2025-04-30</p>
+                </div>
+               
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4" style="display: flex; flex-direction: column;">
+                    <div style="display: flex; align-items: center;">
+                        <label for="displayOrder" class="form-label">Order status:</label>
+                        <p id="orderStatusText" style="margin-left: 8px !important; margin-bottom: 0;"><strong>Completed</strong></p>
+                        <button type="button" class="btn btn-sm" id="changeStatusBtn" onclick="toggleStatusEdit()" style="margin-left: 3px; background-color: #3C8DBC; color: white;">Change Status</button>
+                    </div>
+
+                    <div id="statusEdit" style="display: none; margin-top: 8px;">
+                        <select id="statusDropdown" class="form-select form-select-sm">
+                            <option value="Pending">Pending</option>
+                            <option value="Processing">Processing</option>
+                            <option value="Completed" selected>Completed</option>
+                            <option value="Cancelled">Cancelled</option>
+                        </select>
+                        <div class="mt-2 d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm me-2" onclick="saveStatus()" style="background-color: #3C8DBC; color: white;">Save</button>
+                            <button type="button" class="btn btn-sm btn-secondary" onclick="cancelStatusEdit()">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" style="display: flex;">
+                    <label for="orderSubtotal" class="form-label">Order subtotal:</label>
+                    <p style="margin-left: 8px !important;">$250.00</p>
+                </div>
+                <div class="col-md-4" style="display: flex;">
+                    <label for="orderShipping" class="form-label">Order shipping:</label>
+                    <p style="margin-left: 8px !important;">0.00</p>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-4" style="display: flex;">
+                    <label for="orderTax" class="form-label">Order tax:</label>
+                    <p style="margin-left: 8px !important;">0.00</p>
+                </div>
+                <div class="col-md-4" style="display: flex;">
+                    <label for="orderTotal" class="form-label">Order total:</label>
+                    <p style="margin-left: 8px !important;">$250.00</p>
+                </div>
+                <div class="col-md-4" style="display: flex;">
+                    <label for="paymentStatus" class="form-label">Payment status:</label>
+                    <p style="margin-left: 8px !important;">Paid</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+<h5 class="mt-4">Billing & Shipping Address</h5>
+<div class="row">
+    <!-- Billing Address -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h6 class="mb-0">Billing Address</h6>
+            </div>
+            <div class="card-body p-0">
+                <table class="table mb-0">
+                    <tbody>
+                        <tr><td>Full name</td><td>John Doe</td></tr>
+                        <tr><td>Email</td><td>john.doe@example.com</td></tr>
+                        <tr><td>Phone</td><td>+1 555-123-4567</td></tr>
+                        <tr><td>Fax</td><td>+1 555-765-4321</td></tr>
+                        <tr><td>Company</td><td>Acme Inc.</td></tr>
+                        <tr><td>Address 1</td><td>123 Main St</td></tr>
+                        <tr><td>Address 2</td><td>Suite 100</td></tr>
+                        <tr><td>City</td><td>New York</td></tr>
+                        <tr><td>County / Region</td><td>Manhattan</td></tr>
+                        <tr><td>State / Province</td><td>NY</td></tr>
+                        <tr><td>Zip / Postal Code</td><td>10001</td></tr>
+                        <tr><td>Country</td><td>USA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer text-end">
+                <a href="/Admin/Order/AddressEdit?orderId=1&addressId=1" class="btn btn-primary btn-sm">Edit</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shipping Address -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h6 class="mb-0">Shipping Address</h6>
+            </div>
+            <div class="card-body p-0">
+                <table class="table mb-0">
+                    <tbody>
+                        <tr><td>Full name</td><td>John Doe</td></tr>
+                        <tr><td>Email</td><td>john.doe@example.com</td></tr>
+                        <tr><td>Phone</td><td>+1 555-123-4567</td></tr>
+                        <tr><td>Fax</td><td>+1 555-765-4321</td></tr>
+                        <tr><td>Company</td><td>Acme Inc.</td></tr>
+                        <tr><td>Address 1</td><td>123 Main St</td></tr>
+                        <tr><td>Address 2</td><td>Suite 100</td></tr>
+                        <tr><td>City</td><td>New York</td></tr>
+                        <tr><td>County / Region</td><td>Manhattan</td></tr>
+                        <tr><td>State / Province</td><td>NY</td></tr>
+                        <tr><td>Zip / Postal Code</td><td>10001</td></tr>
+                        <tr><td>Country</td><td>USA</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer text-end">
+                <a href="/Admin/Order/AddressEdit?orderId=1&addressId=1" class="btn btn-primary btn-sm">Edit</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function toggleStatusEdit() {
+        document.getElementById("statusEdit").style.display = "block";
+        document.getElementById("changeStatusBtn").style.display = "none";
+    }
+
+    function cancelStatusEdit() {
+        document.getElementById("statusEdit").style.display = "none";
+        document.getElementById("changeStatusBtn").style.display = "inline";
+    }
+
+    function saveStatus() {
+        var selectedStatus = document.getElementById("statusDropdown").value;
+        document.getElementById("orderStatusText").innerHTML = "<strong>" + selectedStatus + "</strong>";
+        cancelStatusEdit();
+    }
+</script>
+

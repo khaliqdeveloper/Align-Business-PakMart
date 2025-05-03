@@ -1,6 +1,6 @@
 ﻿@{
     var currentController = ViewContext.RouteData.Values["Controller"]?.ToString();
-    var catalogControllers = new[] { "Product", "Category", "ProductReview", "Manufacturer" };
+    var catalogControllers = new[] { "Product", "Category", "ProductReview", "Manufacturer", "Order" };
     var isCatalogActive = catalogControllers.Contains(currentController);
 }
 
@@ -203,8 +203,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="dropdown-item @(currentController == "Shipment" ? "active" : "")"
-                           asp-controller="Shipment" asp-action="List">
+                        <a class="dropdown-item @(currentController == "Order" ? "active" : "")"
+                           asp-controller="Order" asp-action="ShipmentList">
                             <i class="fas fa-truck"></i> Shipments
                         </a>
                     </li>
