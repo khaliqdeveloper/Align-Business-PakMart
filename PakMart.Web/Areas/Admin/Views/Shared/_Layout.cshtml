@@ -209,7 +209,7 @@
                     <li>
                         <a class="dropdown-item @(currentController == "Order" && currentAction == "List" || currentAction == "Edit" ? "active" : "")"
                            asp-area="Admin" asp-controller="Order" asp-action="List">
-                            <i class="fas fa-box"></i> Orders
+                            <i class="fas fa-box"></i> Order Received
                         </a>
                     </li>
                     <li>
@@ -245,7 +245,7 @@
                 </a>
                 <ul class="dropdown-menu w-100 @(isCustomerActive ? "show-dropdown" : "")" id="customerDropdown">
                     <li>
-                        <a class="dropdown-item @(currentController == "Customer" && currentAction == "List" ? "active" : "")"
+                        <a class="dropdown-item @(currentController == "Customer" ? "active" : "")"
                            asp-area="Admin" asp-controller="Customer" asp-action="List">
                             <i class="fas fa-users"></i> Customers
                         </a>
@@ -256,12 +256,12 @@
                             <i class="fas fa-user-tag"></i> Customer roles
                         </a>
                     </li>
-                    <li>
+                    @* <li>
                         <a class="dropdown-item @(currentController == "Vendor" && currentAction == "List" ? "active" : "")"
                            asp-controller="Vendor" asp-action="List">
                             <i class="fas fa-store"></i> Vendors
                         </a>
-                    </li>
+                    </li> *@
 
                 </ul>
 

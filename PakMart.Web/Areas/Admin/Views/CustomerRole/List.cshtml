@@ -1,0 +1,193 @@
+﻿@{
+
+    ViewData["Title"] = "Customer roles";
+}
+
+
+
+<style>
+    .toggle-btn {
+        border: none; /* Removes the border */
+        background: none; /* Removes background color */
+        outline: none; /* Removes the focus outline */
+        padding: 0; /* Removes extra padding */
+        color: inherit; /* Inherits text color for a cleaner look */
+    }
+
+        .toggle-btn:focus,
+        .toggle-btn:active {
+            outline: none;
+            box-shadow: none; /* Removes any focus or active shadow */
+            border: none; /* Ensures no border on focus */
+        }
+
+    .pagination {
+        margin: 0;
+    }
+
+    ul.pagination {
+        margin: 0px !important;
+    }
+
+
+
+    .page-item .page-link {
+        color: #555; /* Default text color */
+        border: 1px solid #ddd;
+        padding: 8px 12px;
+        margin: 0 0px;
+        text-decoration: none;
+    }
+
+    .page-item.active .page-link {
+        background-color: #3C8DBC; /* Active background color */
+        color: #fff; /* Active text color */
+        border-color: #3C8DBC;
+    }
+
+    .page-link:hover {
+        background-color: #3C8DBC;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    nav {
+        margin-top: 5px;
+    }
+</style>
+
+
+<div>
+    <!-- Header and Info Text -->
+    <div class="d-flex justify-content-between align-items-center mb-2">
+        <h3>Customer roles</h3>
+        <div class="deletebtns">
+            <a asp-action="Create" asp-controller="CustomerRole" class="btn btn-sm" style="background-color: #3C8DBC; color: white;" id="addnew">
+                <i class="fa fa-plus"></i> Add New
+            </a>
+
+        </div>
+    </div>
+
+
+    <div id="logTableContainer">
+        <!-- Logs Table -->
+        <div style="overflow-x: auto; width: 100%;">
+            <table class=" table table-bordered table-striped mt-2" style="width: auto; min-width: 100%; border-collapse: collapse; white-space: nowrap;font-size: 13px;">
+                <thead>
+                    <tr style="color: black;">
+                        <th>Name</th>
+                        <th>Active</th>
+                        <th>Edit</th>
+                    </tr>
+                </thead>
+                <tbody id="logTableBody">
+                    <tr>
+                        <td>Administrators</td>
+                        <td>Yes</td>
+                        <td class="text-center p-1 pt-2">
+                            <a asp-action="Edit" asp-controller="CustomerRole" class="btn btn-sm btn-light shadow-sm d-inline-flex align-items-center justify-content-center px-3 py-1 rounded" style="font-size: 12px;">
+                                <i class="fas fa-edit me-1"></i> Edit
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sller</td>
+                        <td>No</td>
+                        <td class="text-center p-1 pt-2">
+                            <button class="btn btn-sm btn-light shadow-sm d-inline-flex align-items-center justify-content-center px-3 py-1 rounded" style="font-size: 12px;">
+                                <i class="fas fa-edit me-1"></i> Edit
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Buyer</td>
+                        <td>Yes</td>
+                        <td class="text-center p-1 pt-2">
+                            <button class="btn btn-sm btn-light shadow-sm d-inline-flex align-items-center justify-content-center px-3 py-1 rounded" style="font-size: 12px;">
+                                <i class="fas fa-edit me-1"></i> Edit
+                            </button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+
+        @* Pagination *@
+        <div class="card mb-1">
+            <div class="card-header d-flex justify-content-between align-items-center flex-wrap" style="padding: 1px !important;">
+
+                <!-- Pagination Info -->
+                <div>
+                    <p class="mb-0">
+                        Showing 1 - 10 of 50 items
+                    </p>
+                </div>
+
+                <!-- Centered Dropdown -->
+                <div style="display: flex; align-items: center; border: 1px solid #F4F4F4; padding: 4px 8px; border-radius: 2px;">
+                    <label for="itemsPerPage" class="mb-0 me-2 mr-2">Show</label>
+                    <select id="itemsPerPage" class="form-select form-select-sm" style="width: auto; min-width: 70px;">
+                        <option value="7">7</option>
+                        <option value="15" selected>15</option>
+                        <option value="20">20</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                    <label class="mb-0 ms-2 ml-2">items</label>
+                </div>
+
+
+                <!-- Pagination Arrows -->
+                <nav>
+                    <ul class="pagination mb-1">
+                        <li class="page-item disabled">
+                            <span class="page-link" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </span>
+                        </li>
+                        <li class="page-item">
+                            <span class="page-link" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </span>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+
+
+
+
+
+        @* <div class="card mb-1 mt-3">
+            <div class="card-header d-flex justify-content-between align-items-center" style="padding: 1px 8px !important;">
+                <p class="mb-0">
+                    Showing @((Model.CurrentPage - 1) * Model.ItemsPerPage + 1) - @Math.Min(Model.CurrentPage * Model.ItemsPerPage, Model.TotalItems) of @Model.TotalItems items
+                </p>
+                <nav>
+                    <ul class="pagination mb-0">
+                        <li class="page-item @(Model.CurrentPage == 1 ? " disabled" : "")">
+                            <a class="page-link" href="@Url.Action(" List", new { page = Model.CurrentPage - 1 })" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item @(Model.CurrentPage == Math.Ceiling((double)Model.TotalItems / Model.ItemsPerPage) ? " disabled" : "")">
+                            <a class="page-link" href="@Url.Action(" List", new { page = Model.CurrentPage + 1 })" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div> *@
+
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
