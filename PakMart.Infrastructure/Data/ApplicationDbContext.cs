@@ -13,7 +13,13 @@ namespace PakMart.Infrastructure.Data
         }
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Manufacturer> Manufacturers { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Picture> Pictures { get; set; }
+        public DbSet<PictureBinary> PictureBinary { get; set; }
+        public DbSet<ProductCategoryMapping> Product_Category_Mapping { get; set; }
+        public DbSet<ProductManufacturerMapping> Product_Manufacturer_Mapping { get; set; }
+        public DbSet<ProductPictureMapping> Product_Picture_Mapping { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Vendor> Vendors { get; set; }

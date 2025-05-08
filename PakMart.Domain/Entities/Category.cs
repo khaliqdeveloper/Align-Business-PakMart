@@ -4,19 +4,23 @@ namespace PakMart.Domain.Entities
 {
     public class Category
     {
+        [Key]
         public int Id { get; set; }
+        public int? PictureId { get; set; }
+        public Picture Picture { get; set; }
 
-        [Required]
-        public string Name { get; set; }
+        public string CategoryName { get; set; }
 
-        public string Description { get; set; }
+        public bool Publish { get; set; }
 
-        // Self-referencing for subcategories
-        public int? ParentCategoryId { get; set; }
+        public bool ShowOnHomePage { get; set; }
 
-        // Navigation Properties
-        public Category ParentCategory { get; set; }
-        public ICollection<Category> SubCategories { get; set; }
-        public ICollection<Product> Products { get; set; }
+        public bool IncludeInTopMenu { get; set; }
+
+        public int DisplayOrder { get; set; }
+
+        public string? FullDesc { get; set; }
+
+        public ICollection<ProductCategoryMapping> ProductCategories { get; set; }
     }
 }
